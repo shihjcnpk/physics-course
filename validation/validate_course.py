@@ -178,6 +178,35 @@ if {x["lesson_id"] for x in visuals} != set(ids):
 if any(len(x.get("accuracy_checks",[]))<5 for x in visuals):
     errors.append("视觉注册项科学检查不足")
 
+grade8_visual_path = ROOT / "data/grade8_visual_explainers.json"
+if not grade8_visual_path.exists():
+    errors.append("缺少八上漫画图解注册表")
+    grade8_visuals = []
+else:
+    grade8_visuals = json.loads(grade8_visual_path.read_text(encoding="utf-8")).get("explainers", [])
+    expected_grade8_ids = {
+        x["lesson_id"] for x in lessons
+        if x["grade"] == "八年级" and x["semester"] == "上册"
+    }
+    actual_grade8_ids = {x.get("lesson_id") for x in grade8_visuals}
+    if actual_grade8_ids != expected_grade8_ids:
+        errors.append(
+            f"八上漫画图解覆盖错误：缺{sorted(expected_grade8_ids-actual_grade8_ids)}，"
+            f"多{sorted(actual_grade8_ids-expected_grade8_ids)}"
+        )
+    visual_required_fields = {
+        "lesson_id", "title", "abstract_point", "analogy", "physics_truth",
+        "boundary", "memory_hook", "diagram_kind", "stages",
+    }
+    for item in grade8_visuals:
+        missing = visual_required_fields - item.keys()
+        if missing:
+            errors.append(f"{item.get('lesson_id')}漫画图解缺字段：{sorted(missing)}")
+        if len(item.get("stages", [])) != 3:
+            errors.append(f"{item.get('lesson_id')}漫画图解应为三格")
+        if any(not str(item.get(field, "")).strip() for field in visual_required_fields - {"stages"}):
+            errors.append(f"{item.get('lesson_id')}漫画图解含空字段")
+
 placeholder_pattern = re.compile(r"TODO|TBD|PLACEHOLDER|注意力有问题|ADHD", re.IGNORECASE)
 for path in [*ROOT.glob("*.md"), *(ROOT / "lessons").glob("*.md"), *(ROOT / "exercises").glob("*.md")]:
     content = path.read_text(encoding="utf-8")
@@ -196,13 +225,14 @@ report = {
     "mandatory_experiments": len(mandatory),
     "pep_chapters": len(pep_rows),
     "pep_sections": len(re.findall(r"(?m)^\d+\. ", directory)) if directory_path.exists() else 0,
+    "grade8_visual_explainers": len(grade8_visuals),
     "importance": dict(Counter(x["importance"] for x in lessons)),
     "experiment_levels": dict(Counter(x["experiment_level"] for x in lessons)),
     "curriculum_status": dict(status_counts),
     "errors": errors,
     "warnings": warnings,
     "result": "PASS" if not errors else "FAIL",
-    "checks": ["YAML与JSON一致", "CORE实验四变量与异常值", "公式六问的核心四项", "五类练习", "课内外练习同步", "Markdown相对链接", "20+10与逻辑链", "三册新版官方目录与二力合成"],
+    "checks": ["YAML与JSON一致", "CORE实验四变量与异常值", "公式六问的核心四项", "五类练习", "课内外练习同步", "Markdown相对链接", "20+10与逻辑链", "三册新版官方目录与二力合成", "八上漫画图解全覆盖与三格结构"],
 }
 (ROOT / "validation/report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
 print(json.dumps(report, ensure_ascii=False, indent=2))

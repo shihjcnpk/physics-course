@@ -4,6 +4,12 @@
 
 在线访问：https://shihjcnpk.github.io/physics-course/#/
 
+## 八上漫画图解
+
+八年级上册 L001—L025 已加入与数学课程一致的“通俗类比 → 分阶段图示 → 正式表述”结构。每课包含原创轻漫画三格、比喻边界和记忆钩子；反射、折射、透镜、声波、物态变化与密度等关键抽象内容另有科学模型 SVG。
+
+设计说明见 [GRADE8_VISUAL_EXPLAINERS.md](GRADE8_VISUAL_EXPLAINERS.md)。
+
 ## 使用顺序
 
 1. 从[课程总表](COURSE_MAP.md)进入一节课。
