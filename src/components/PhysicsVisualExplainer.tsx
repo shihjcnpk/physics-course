@@ -11,6 +11,28 @@ interface VisualExplainer {
   memory_hook: string
   diagram_kind: string
   stages: string[]
+  reading_guide: {
+    object: string
+    change: string
+    result: string
+    conclusion: string
+  }
+}
+
+function PrincipleGuide({ explainer, phase }: { explainer: VisualExplainer; phase: number }) {
+  const steps = [
+    { label: '① 看谁', value: explainer.reading_guide.object, active: phase === 0 },
+    { label: '② 改什么 / 比什么', value: explainer.reading_guide.change, active: phase === 1 },
+    { label: '③ 看到什么', value: explainer.reading_guide.result, active: phase === 2 },
+  ]
+  return <div className="principle-guide" aria-label="读图步骤">
+    <div className="principle-flow">
+      {steps.map((step, index) => <div className={`principle-step ${step.active ? 'active' : ''}`} key={step.label}>
+        <strong>{step.label}</strong><span>{step.value}</span>{index < steps.length - 1 && <b aria-hidden="true">→</b>}
+      </div>)}
+    </div>
+    <div className="principle-conclusion"><span>所以</span><strong>{explainer.reading_guide.conclusion}</strong></div>
+  </div>
 }
 
 const explainers = visualData.explainers as VisualExplainer[]
@@ -258,6 +280,7 @@ export default function PhysicsVisualExplainer({ lessonId }: { lessonId: string 
 
       <ComicStrip explainer={explainer} phase={phase} />
       <div className="model-diagram"><ModelDiagram kind={explainer.diagram_kind} phase={phase} /></div>
+      <PrincipleGuide explainer={explainer} phase={phase} />
 
       <div className="visual-controls" aria-label="图解播放控制">
         <button onClick={() => { setPlaying(false); setPhase(Math.max(0, phase - 1)) }} disabled={phase === 0}>上一格</button>

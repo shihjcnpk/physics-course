@@ -7,6 +7,8 @@ export interface Lesson {
   importance: string
   core_question: string
   core_concept: string
+  math_prerequisite: string[]
+  math_connection: string
   experiment_level: 'NONE' | 'MICRO' | 'CORE'
   estimated_teaching_minutes: number
   estimated_practice_minutes: number

@@ -85,9 +85,17 @@ for index, lesson in enumerate(lessons):
     questions = re.findall(r"(?m)^\d+\. \*\*", text)
     if not 4 <= len(questions) <= 6:
         errors.append(f"{lesson['lesson_id']}练习题数{len(questions)}，应4-6")
-    for heading in ["今天只学一件事", "建立模型", "正式物理知识", "一个典型例题", "10分钟练习", "为什么错", "数学连接"]:
+    for heading in ["今天只学一件事", "开课前｜数学准备", "建立模型", "正式物理知识", "一个典型例题", "10分钟练习", "为什么错"]:
         if heading not in text:
             errors.append(f"{lesson['lesson_id']}缺正文环节：{heading}")
+    math_position = text.find("## 开课前｜数学准备")
+    hook_position = text.find("## 为什么要学它？")
+    if math_position < 0 or hook_position < 0 or math_position > hook_position:
+        errors.append(f"{lesson['lesson_id']}数学前置未放在物理正课前")
+    if "数学前置：" not in text[math_position:hook_position] or "数学小补丁" not in text[math_position:hook_position]:
+        errors.append(f"{lesson['lesson_id']}开课前数学检查内容不完整")
+    if re.search(r"(?m)^## (?:0～2|2～5|5～10|5～12|10～14|12～15|14～17|15～17|17～19|19～20)分钟", text):
+        errors.append(f"{lesson['lesson_id']}正文标题仍含分段时间，可能转移注意力")
     if "先猜一猜" not in text and "先猜并设计" not in text:
         errors.append(f"{lesson['lesson_id']}缺正文环节：预测")
     if len(lesson["common_errors"]) < 2:
@@ -105,9 +113,11 @@ for index, lesson in enumerate(lessons):
     else:
         if "本课不用计算公式" not in text:
             errors.append(f"{lesson['lesson_id']}无公式课缺少模型边界说明")
-    for marker in ["概念判断", "条件辨认", "图示应用", "基础应用", "情境与错因侦探"]:
+    for marker in ["基础·北京题型：概念辨析", "基础·北京题型：读数/计算", "典型·北京题型：读图作图", "典型·北京题型：实验探究", "提升·北京题型：解释/论证"]:
         if marker not in text:
             errors.append(f"{lesson['lesson_id']}练习结构缺项：{marker}")
+    if index < 25 and "先圈定对象和条件，再用" in text.split("## 10分钟练习", 1)[-1].split("## 为什么错", 1)[0]:
+        errors.append(f"{lesson['lesson_id']}八上提升题仍使用泛化答案")
     practice_path = ROOT / "exercises" / f"{lesson['lesson_id']}-practice.md"
     if not practice_path.exists():
         errors.append(f"缺独立练习{practice_path.name}")
@@ -196,7 +206,7 @@ else:
         )
     visual_required_fields = {
         "lesson_id", "title", "abstract_point", "analogy", "physics_truth",
-        "boundary", "memory_hook", "diagram_kind", "stages",
+        "boundary", "memory_hook", "diagram_kind", "stages", "reading_guide",
     }
     for item in grade8_visuals:
         missing = visual_required_fields - item.keys()
@@ -206,6 +216,9 @@ else:
             errors.append(f"{item.get('lesson_id')}漫画图解应为三格")
         if any(not str(item.get(field, "")).strip() for field in visual_required_fields - {"stages"}):
             errors.append(f"{item.get('lesson_id')}漫画图解含空字段")
+        guide = item.get("reading_guide", {})
+        if set(guide) != {"object", "change", "result", "conclusion"} or any(not str(v).strip() for v in guide.values()):
+            errors.append(f"{item.get('lesson_id')}读图链不完整")
 
 placeholder_pattern = re.compile(r"TODO|TBD|PLACEHOLDER|注意力有问题|ADHD", re.IGNORECASE)
 for path in [*ROOT.glob("*.md"), *(ROOT / "lessons").glob("*.md"), *(ROOT / "exercises").glob("*.md")]:
@@ -232,7 +245,7 @@ report = {
     "errors": errors,
     "warnings": warnings,
     "result": "PASS" if not errors else "FAIL",
-    "checks": ["YAML与JSON一致", "CORE实验四变量与异常值", "公式六问的核心四项", "五类练习", "课内外练习同步", "Markdown相对链接", "20+10与逻辑链", "三册新版官方目录与二力合成", "八上漫画图解全覆盖与三格结构"],
+    "checks": ["YAML与JSON一致", "CORE实验四变量与异常值", "公式六问的核心四项", "北京中考五类练习", "课内外练习同步", "Markdown相对链接", "20+10与逻辑链", "三册新版官方目录与二力合成", "八上漫画图解全覆盖、三格结构与四步读图链"],
 }
 (ROOT / "validation/report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
 print(json.dumps(report, ensure_ascii=False, indent=2))

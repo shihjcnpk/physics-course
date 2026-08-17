@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm'
 import { getLesson, getLessonMarkdown, lessons } from '../data'
 import { getCompleted, setLessonCompleted } from '../progress'
 import PhysicsVisualExplainer from '../components/PhysicsVisualExplainer'
+import MathPrerequisiteCard from '../components/MathPrerequisiteCard'
 
 export default function LessonPage() {
   const { lessonId = '' } = useParams()
@@ -16,6 +17,7 @@ export default function LessonPage() {
   const previous = lessons[index - 1]
   const next = lessons[index + 1]
   const toggle = () => { const value = !completed; setCompleted(value); setLessonCompleted(lessonId, value) }
+  const markdown = getLessonMarkdown(lessonId).replace(/## 开课前｜数学准备[\s\S]*?(?=\n## 为什么要学它？)/, '')
 
   return (
     <article className="lesson-page">
@@ -25,8 +27,9 @@ export default function LessonPage() {
         <div className="time-card"><strong>20 + 10</strong><small>分钟</small></div>
       </div>
       <div className="lesson-focus"><span>今天的核心</span><strong>{lesson.core_concept}</strong></div>
+      <MathPrerequisiteCard lesson={lesson} />
       <PhysicsVisualExplainer lessonId={lessonId} />
-      <div className="markdown"><ReactMarkdown remarkPlugins={[remarkGfm]}>{getLessonMarkdown(lessonId)}</ReactMarkdown></div>
+      <div className="markdown"><ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown></div>
       <button className={`complete-button ${completed ? 'done' : ''}`} onClick={toggle}>{completed ? '✓ 已完成本课' : '标记为已完成'}</button>
       <nav className="lesson-nav">
         {previous ? <Link to={`/lessons/${previous.lesson_id}`}>← {previous.title}</Link> : <span />}

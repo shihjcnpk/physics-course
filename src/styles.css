@@ -66,6 +66,14 @@ footer { padding: 1.5rem; text-align: center; color: #75908b; font-size: .8rem; 
 .time-card small { opacity: .8; }
 .lesson-focus { display: flex; flex-direction: column; gap: .35rem; margin: 1.4rem 0; padding: 1rem 1.15rem; border-left: 4px solid #f59e0b; border-radius: .5rem; background: #fff8e6; }
 .lesson-focus span { color: #a26100; font-size: .75rem; font-weight: 800; }
+.math-entry-card { margin: 1.2rem 0; padding: 1rem 1.1rem; border: 2px solid #cfdcf8; border-radius: 1rem; background: linear-gradient(145deg, #fbfcff, #edf3ff); }
+.math-entry-heading { display: flex; justify-content: space-between; gap: 1rem; align-items: start; }
+.math-entry-heading span { color: #4967a8; font-size: .72rem; font-weight: 900; }
+.math-entry-heading h2 { margin: .2rem 0 0; color: #243b73; font-size: 1.15rem; }
+.math-entry-heading > strong { padding: .35rem .6rem; border-radius: .55rem; background: #fff; color: #3657a1; font-size: .78rem; }
+.math-entry-card > p { margin: .7rem 0; color: #3f527e; line-height: 1.6; }
+.math-entry-action { display: flex; justify-content: space-between; gap: .8rem; align-items: center; padding-top: .7rem; border-top: 1px solid #ccd9f5; color: #52658e; font-size: .84rem; line-height: 1.55; }
+.math-entry-action a { flex: none; padding: .55rem .7rem; border-radius: .55rem; background: #3657a1; color: #fff; font-weight: 800; }
 .visual-explainer { margin: 1.25rem 0; padding: clamp(1rem, 3vw, 1.5rem); overflow: hidden; border: 1px solid #f2d6a0; border-radius: 1.2rem; background: linear-gradient(145deg, #fffdf6, #fff7dc); box-shadow: 0 14px 35px rgba(117, 74, 18, .08); }
 .visual-heading { display: flex; justify-content: space-between; align-items: start; gap: 1rem; }
 .visual-heading h2 { margin: .25rem 0 .35rem; color: #4f3212; font-size: clamp(1.35rem, 4vw, 1.85rem); line-height: 1.25; }
@@ -82,6 +90,17 @@ footer { padding: 1.5rem; text-align: center; color: #75908b; font-size: .8rem; 
 .model-diagram { display: grid; place-items: center; min-height: 0; margin-top: .75rem; overflow: hidden; border-radius: .9rem; background: #f7fbfa; }
 .model-diagram:empty { display: none; }
 .model-diagram svg { width: 100%; max-height: 300px; padding: .6rem; font-family: "Microsoft YaHei", sans-serif; font-size: 15px; }
+.principle-guide { margin-top: .75rem; border: 2px solid #d7e8e3; border-radius: .9rem; overflow: hidden; background: #fff; }
+.principle-flow { display: grid; grid-template-columns: repeat(3, 1fr); }
+.principle-step { position: relative; min-height: 5.2rem; padding: .7rem 1.6rem .7rem .75rem; border-right: 1px solid #d7e8e3; color: #52635f; }
+.principle-step:last-child { border-right: 0; }
+.principle-step strong { display: block; margin-bottom: .3rem; color: #256554; font-size: .78rem; }
+.principle-step span { display: block; font-size: .9rem; line-height: 1.45; }
+.principle-step b { position: absolute; right: -.62rem; top: 1.7rem; z-index: 2; display: grid; width: 1.2rem; height: 1.2rem; place-items: center; border-radius: 50%; background: #256554; color: #fff; }
+.principle-step.active { background: #e9f7f2; box-shadow: inset 0 0 0 2px #56a98e; }
+.principle-conclusion { display: flex; gap: .65rem; align-items: center; padding: .7rem .8rem; border-top: 1px solid #d7e8e3; background: #fff6d8; color: #5f4b14; }
+.principle-conclusion span { flex: none; padding: .15rem .5rem; border-radius: 999px; background: #e5a724; color: #fff; font-weight: 800; }
+.principle-conclusion strong { font-size: .95rem; }
 .model-line, .model-ground, .model-axis, .model-interface, .model-tick { fill: none; stroke: #4c635f; stroke-width: 3; }
 .model-arrow, .model-ray, .model-object-arrow { fill: none; stroke: #e46f2e; stroke-width: 4; }
 .model-ray { stroke: #e1533d; }
@@ -151,7 +170,11 @@ text.model-muted { fill: #8b9d99; stroke: none; opacity: .45; }
   .section-row { grid-template-columns: 1fr; padding: .85rem; }
   .lesson-title { flex-direction: column; }
   .time-card { flex-direction: row; gap: .3rem; }
-  .comic-strip, .analogy-grid { grid-template-columns: 1fr; }
+  .comic-strip, .analogy-grid, .principle-flow { grid-template-columns: 1fr; }
+  .math-entry-heading, .math-entry-action { align-items: stretch; flex-direction: column; }
+  .math-entry-action a { text-align: center; }
+  .principle-step { min-height: auto; border-right: 0; border-bottom: 1px solid #d7e8e3; }
+  .principle-step b { right: 50%; top: auto; bottom: -.62rem; transform: translateX(50%) rotate(90deg); }
   .comic-panel { min-height: 128px; }
   .comic-icon { min-height: 52px; }
   .model-diagram svg { padding: .3rem; }
