@@ -96,6 +96,12 @@ for index, lesson in enumerate(lessons):
         errors.append(f"{lesson['lesson_id']}开课前数学检查内容不完整")
     if re.search(r"(?m)^## (?:0～2|2～5|5～10|5～12|10～14|12～15|14～17|15～17|17～19|19～20)分钟", text):
         errors.append(f"{lesson['lesson_id']}正文标题仍含分段时间，可能转移注意力")
+    child_text = text.split("---", 2)[-1]
+    if re.search(r"\bC[1-9]\b", child_text):
+        errors.append(f"{lesson['lesson_id']}孩子正文仍暴露内部错因代码")
+    for filler in ["先不要找公式", "本课只追一个变化，不追所有细节", "D0口述核心句"]:
+        if filler in child_text:
+            errors.append(f"{lesson['lesson_id']}孩子正文仍含低价值过程话术：{filler}")
     if "先猜一猜" not in text and "先猜并设计" not in text:
         errors.append(f"{lesson['lesson_id']}缺正文环节：预测")
     if len(lesson["common_errors"]) < 2:

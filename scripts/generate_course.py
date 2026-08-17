@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -353,16 +354,47 @@ BEIJING_G8_REASONING = {
     25: ("为保温杯选择内胆材料时，只说‘越轻越好’为什么证据不足？至少补充两个指标。", "轻只对应密度或总质量，还要比较导热性、耐腐蚀性、强度、安全性等与用途有关的指标。"),
 }
 
+ERROR_ACTIONS = {
+    "C1": "回到现象和核心句，用自己的话重新解释一次。",
+    "C2": "圈出研究对象和关键条件，再重新选择模型。",
+    "C3": "重画最简图，逐一核对方向、箭头、虚实线和标注。",
+    "C4": "重读题目，只圈出决定答案的条件，再作答。",
+    "C5": "物理关系不变，只把计算过程单独重算一遍。",
+    "C6": "先统一单位，再把数值代入关系式。",
+    "C7": "写出这个关系的适用条件，再判断本题能否使用。",
+    "C8": "按对象、条件、单位逐项检查一遍。",
+    "C9": "在题目旁画“对象—条件—单位”三格，完成一格勾一格。",
+}
+
+SPECIAL_ERROR_FEEDBACK = {
+    "C2分段模型错": "- **把不同路段的路程和时间配错**：重新圈出“整段”，把总路程和总时间配成一组。",
+    "C7速度直接平均": "- **把两段速度直接相加除以2**：不要平均两段速度；重新计算“总路程÷总时间”。",
+}
+
+
+def visible_error(error):
+    match = re.match(r"^(C\d+)(.*)$", error)
+    return (match.group(1), match.group(2).strip()) if match else ("", error)
+
+
+def error_feedback(error):
+    if error in SPECIAL_ERROR_FEEDBACK:
+        return SPECIAL_ERROR_FEEDBACK[error]
+    code, detail = visible_error(error)
+    return f"- **{detail}**：{ERROR_ACTIONS.get(code, '找到出错的那一步，订正后用一道同类题确认。')}"
+
+
 def exercise_block(x):
-    code=x["common_errors"][0].split()[0]
     if x["id"] in BEIJING_G8_CONCEPT:
         concept_q, concept_a = BEIJING_G8_CONCEPT[x["id"]]
         reasoning_q, reasoning_a = BEIJING_G8_REASONING[x["id"]]
     else:
-        concept_q = f"在“{x['activity']}”中，有同学忽略了“{x['common_errors'][1]}”。这个结论可靠吗？"
+        _, concept_error = visible_error(x['common_errors'][1])
+        _, reasoning_error = visible_error(x['common_errors'][0])
+        concept_q = f"在“{x['activity']}”中，有同学出现了“{concept_error}”。这个结论可靠吗？"
         concept_a = f"不可靠。应先按“{x['core_model']}”核对研究对象和条件。"
         reasoning_q = f"把“{x['core_question']}”改成可检验的问题，并写出需要取得的证据。"
-        reasoning_a = f"先圈定对象和条件，再用“{x['core_model']}”连接证据与结论。若出现“{x['common_errors'][0]}”，归入 **{code}** 并只修对应步骤。"
+        reasoning_a = f"先圈定对象和条件，再用“{x['core_model']}”连接证据与结论。如果出现“{reasoning_error}”，订正这个判断步骤后，再用一道同类题确认。"
     return f'''1. **[基础·北京题型：概念辨析]** {concept_q}
 
    **答案**：{concept_a}
@@ -465,7 +497,7 @@ review_links: {yaml_list(x['review_links'])}
 
 ## 为什么要学它？
 
-先不要找公式。想象这个生活场景：{x['activity']}。本课只追一个变化，不追所有细节。
+想一想这个生活场景：{x['activity']}。
 
 ## {predict_time}
 
@@ -521,9 +553,9 @@ review_links: {yaml_list(x['review_links'])}
 {exercise_block(x)}
 ## 为什么错
 
-- {x['common_errors'][0]}：回到本课模型卡，重新指出对象和关键条件。
-- {x['common_errors'][1]}：只修这一步，再做第4题；不要整课重听。
-- 若是C9注意丢失：在题目旁画“对象—条件—单位”三格，完成一格勾一格。
+{error_feedback(x['common_errors'][0])}
+{error_feedback(x['common_errors'][1])}
+- **做题中途漏条件**：在题目旁画“对象—条件—单位”三格，完成一格勾一格。
 
 ## 和上一课的关系
 
@@ -535,7 +567,7 @@ review_links: {yaml_list(x['review_links'])}
 
 ## 间隔复习
 
-D0口述核心句；D1做一道基础题；D3换情境；D7混入相邻模型；D14不看卡片解释一次。复习优先处理错因，不重复抄答案。
+当天口述核心句；第2天做一道基础题；第3天换一个情境；第7天和相邻模型一起练；第14天不看卡片解释一次。复习优先处理真正出错的步骤，不重复抄答案。
 '''
 
 def write_docs():
