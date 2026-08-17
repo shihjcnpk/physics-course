@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300">
+  <rect width="760" height="300" fill="white"/><rect x="55" y="100" width="170" height="90" rx="12" fill="#dbeafe"/><rect x="300" y="45" width="170" height="80" rx="12" fill="#dcfce7"/><rect x="300" y="185" width="170" height="80" rx="12" fill="#fee2e2"/>
+  <text x="90" y="153" font-size="24">输入能量</text><text x="335" y="94" font-size="24">有效能量</text><text x="335" y="234" font-size="24">散失能量</text>
+  <path d="M225 145 C260 145 265 85 300 85" fill="none" stroke="#16a34a" stroke-width="12"/><path d="M225 150 C260 150 265 225 300 225" fill="none" stroke="#ef4444" stroke-width="7"/><text x="515" y="155" font-size="24">E入 = E有 + E散</text>
+</svg>

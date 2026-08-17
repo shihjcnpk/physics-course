@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="360" viewBox="0 0 500 360">
+  <rect width="500" height="360" fill="white"/><line x1="70" y1="290" x2="430" y2="290" stroke="#111827" stroke-width="5"/><rect x="190" y="170" width="120" height="120" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <line x1="250" y1="170" x2="250" y2="70" stroke="#16a34a" stroke-width="5"/><polygon points="250,55 240,78 260,78" fill="#16a34a"/><text x="270" y="90" font-size="22">支持力 N</text>
+  <line x1="250" y1="230" x2="250" y2="330" stroke="#ef4444" stroke-width="5"/><polygon points="250,345 240,322 260,322" fill="#ef4444"/><text x="270" y="335" font-size="22">重力 G</text>
+</svg>

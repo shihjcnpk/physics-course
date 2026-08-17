@@ -1,0 +1,928 @@
+{
+  "levels": {
+    "1": "大概念",
+    "2": "核心模型（见每课core_model）",
+    "3": "具体课"
+  },
+  "big_ideas": [
+    {
+      "id": "BIG-01",
+      "level": 1,
+      "title": "测量与科学方法"
+    },
+    {
+      "id": "BIG-02",
+      "level": 1,
+      "title": "运动"
+    },
+    {
+      "id": "BIG-03",
+      "level": 1,
+      "title": "声音与波的现象"
+    },
+    {
+      "id": "BIG-04",
+      "level": 1,
+      "title": "热与物态"
+    },
+    {
+      "id": "BIG-05",
+      "level": 1,
+      "title": "光"
+    },
+    {
+      "id": "BIG-06",
+      "level": 1,
+      "title": "质量与密度"
+    },
+    {
+      "id": "BIG-07",
+      "level": 1,
+      "title": "力与运动"
+    },
+    {
+      "id": "BIG-08",
+      "level": 1,
+      "title": "压强与浮力"
+    },
+    {
+      "id": "BIG-09",
+      "level": 1,
+      "title": "功机械与能量"
+    },
+    {
+      "id": "BIG-10",
+      "level": 1,
+      "title": "内能与能源"
+    },
+    {
+      "id": "BIG-11",
+      "level": 1,
+      "title": "电路"
+    },
+    {
+      "id": "BIG-12",
+      "level": 1,
+      "title": "电流电压电阻"
+    },
+    {
+      "id": "BIG-13",
+      "level": 1,
+      "title": "欧姆定律"
+    },
+    {
+      "id": "BIG-14",
+      "level": 1,
+      "title": "电功与电功率"
+    },
+    {
+      "id": "BIG-15",
+      "level": 1,
+      "title": "电与磁"
+    },
+    {
+      "id": "BIG-16",
+      "level": 1,
+      "title": "能源与现代技术"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "L001",
+      "level": 3,
+      "title": "长度和时间：先学会可靠测量",
+      "big_idea": "测量与科学方法",
+      "model": "选量程、分度值、估读并记录"
+    },
+    {
+      "id": "L002",
+      "level": 3,
+      "title": "运动和静止：先选参照物",
+      "big_idea": "运动",
+      "model": "相对参照物比较位置"
+    },
+    {
+      "id": "L003",
+      "level": 3,
+      "title": "速度：每1秒走多远",
+      "big_idea": "运动",
+      "model": "单位时间通过的路程"
+    },
+    {
+      "id": "L004",
+      "level": 3,
+      "title": "平均速度：一段路整体有多快",
+      "big_idea": "运动",
+      "model": "总路程除以总时间"
+    },
+    {
+      "id": "L005",
+      "level": 3,
+      "title": "核心实验：测量物体运动速度",
+      "big_idea": "运动",
+      "model": "测距、计时、配对、计算"
+    },
+    {
+      "id": "L006",
+      "level": 3,
+      "title": "声音从哪里来、怎样传过去",
+      "big_idea": "声音与波的现象",
+      "model": "声源振动→介质传递→耳接收"
+    },
+    {
+      "id": "L007",
+      "level": 3,
+      "title": "音调、响度和音色别混淆",
+      "big_idea": "声音与波的现象",
+      "model": "频率管高低、振幅管强弱、音色辨声源"
+    },
+    {
+      "id": "L008",
+      "level": 3,
+      "title": "声音的利用与噪声控制",
+      "big_idea": "声音与波的现象",
+      "model": "声源—传播—接收三处分析"
+    },
+    {
+      "id": "L009",
+      "level": 3,
+      "title": "温度与温度计",
+      "big_idea": "热与物态",
+      "model": "测温物质随温度规律变化"
+    },
+    {
+      "id": "L010",
+      "level": 3,
+      "title": "三态与物态变化地图",
+      "big_idea": "热与物态",
+      "model": "三态之间六种变化方向"
+    },
+    {
+      "id": "L011",
+      "level": 3,
+      "title": "熔化和凝固：温度怎样变",
+      "big_idea": "热与物态",
+      "model": "晶体熔化时吸热、温度保持在熔点"
+    },
+    {
+      "id": "L012",
+      "level": 3,
+      "title": "核心实验：水沸腾前后温度变化",
+      "big_idea": "热与物态",
+      "model": "持续吸热但沸腾时温度近似不变"
+    },
+    {
+      "id": "L013",
+      "level": 3,
+      "title": "汽化与液化：水去哪了又怎么回来",
+      "big_idea": "热与物态",
+      "model": "液体↔气体的能量过程"
+    },
+    {
+      "id": "L014",
+      "level": 3,
+      "title": "升华、凝华与水循环",
+      "big_idea": "热与物态",
+      "model": "固↔气与水循环状态链"
+    },
+    {
+      "id": "L015",
+      "level": 3,
+      "title": "光沿直线传播",
+      "big_idea": "光",
+      "model": "用光线表示传播路径"
+    },
+    {
+      "id": "L016",
+      "level": 3,
+      "title": "核心实验：光的反射定律",
+      "big_idea": "光",
+      "model": "反射角等于入射角，两线分居法线两侧"
+    },
+    {
+      "id": "L017",
+      "level": 3,
+      "title": "核心实验：平面镜成像",
+      "big_idea": "光",
+      "model": "像物关于镜面对称"
+    },
+    {
+      "id": "L018",
+      "level": 3,
+      "title": "光的折射：方向为什么改变",
+      "big_idea": "光",
+      "model": "入射介质—界面—折射光线模型"
+    },
+    {
+      "id": "L019",
+      "level": 3,
+      "title": "透镜怎样改变光束",
+      "big_idea": "光",
+      "model": "三条特殊光线建立透镜模型"
+    },
+    {
+      "id": "L020",
+      "level": 3,
+      "title": "核心实验：凸透镜成像规律",
+      "big_idea": "光",
+      "model": "物距—焦距区间决定像的位置与性质"
+    },
+    {
+      "id": "L021",
+      "level": 3,
+      "title": "凸透镜应用与眼睛",
+      "big_idea": "光",
+      "model": "成像区间→器件功能"
+    },
+    {
+      "id": "L022",
+      "level": 3,
+      "title": "质量：物体含有多少物质",
+      "big_idea": "质量与密度",
+      "model": "天平比较物体质量"
+    },
+    {
+      "id": "L023",
+      "level": 3,
+      "title": "密度：相同体积为什么轻重不同",
+      "big_idea": "质量与密度",
+      "model": "质量—体积比率模型"
+    },
+    {
+      "id": "L024",
+      "level": 3,
+      "title": "核心实验：测固体和液体密度",
+      "big_idea": "质量与密度",
+      "model": "天平测质量、排水测体积、计算密度"
+    },
+    {
+      "id": "L025",
+      "level": 3,
+      "title": "物质属性、微观结构与尺度",
+      "big_idea": "测量与科学方法",
+      "model": "属性—用途—尺度证据链"
+    },
+    {
+      "id": "L026",
+      "level": 3,
+      "title": "力：看作用效果与相互作用",
+      "big_idea": "力与运动",
+      "model": "施力物—受力物成对分析"
+    },
+    {
+      "id": "L027",
+      "level": 3,
+      "title": "力的三要素与示意图",
+      "big_idea": "力与运动",
+      "model": "用带比例或标值箭头表示力"
+    },
+    {
+      "id": "L028",
+      "level": 3,
+      "title": "重力：方向总指向哪里",
+      "big_idea": "力与运动",
+      "model": "重心处竖直向下"
+    },
+    {
+      "id": "L029",
+      "level": 3,
+      "title": "弹力与弹簧测力计",
+      "big_idea": "力与运动",
+      "model": "在限度内形变量反映力大小"
+    },
+    {
+      "id": "L030",
+      "level": 3,
+      "title": "核心实验：滑动摩擦力受什么影响",
+      "big_idea": "力与运动",
+      "model": "水平匀速时拉力等于摩擦力"
+    },
+    {
+      "id": "L031",
+      "level": 3,
+      "title": "牛顿第一定律：没有力会怎样",
+      "big_idea": "力与运动",
+      "model": "阻力逐渐减小→运动保持更久→理想无阻力"
+    },
+    {
+      "id": "L032",
+      "level": 3,
+      "title": "惯性：物体想保持原状态",
+      "big_idea": "力与运动",
+      "model": "刹车前后分别比较人和车状态"
+    },
+    {
+      "id": "L033",
+      "level": 3,
+      "title": "同一直线上二力的合成：平衡是特殊情况",
+      "big_idea": "力与运动",
+      "model": "先定正方向；同向相加、反向相减；合力为零时检查同体等大反向共线"
+    },
+    {
+      "id": "L034",
+      "level": 3,
+      "title": "压强：同样的力为什么效果不同",
+      "big_idea": "压强与浮力",
+      "model": "压力与受力面积共同决定效果"
+    },
+    {
+      "id": "L035",
+      "level": 3,
+      "title": "核心实验：液体压强受什么影响",
+      "big_idea": "压强与浮力",
+      "model": "同种液体压强随深度增加；同深度看密度"
+    },
+    {
+      "id": "L036",
+      "level": 3,
+      "title": "大气压：空气也在用力",
+      "big_idea": "压强与浮力",
+      "model": "内外压强差产生效果"
+    },
+    {
+      "id": "L037",
+      "level": 3,
+      "title": "流体压强与流速",
+      "big_idea": "压强与浮力",
+      "model": "两侧流速差→压强差→受力"
+    },
+    {
+      "id": "L038",
+      "level": 3,
+      "title": "浮力：浸在流体里的向上作用",
+      "big_idea": "压强与浮力",
+      "model": "弹簧测力计示数差测浮力"
+    },
+    {
+      "id": "L039",
+      "level": 3,
+      "title": "核心实验：浮力大小受什么影响",
+      "big_idea": "压强与浮力",
+      "model": "控制变量比较称重差"
+    },
+    {
+      "id": "L040",
+      "level": 3,
+      "title": "阿基米德原理：浮力等于排开液体的重",
+      "big_idea": "压强与浮力",
+      "model": "排液质量→排液重力→浮力"
+    },
+    {
+      "id": "L041",
+      "level": 3,
+      "title": "物体浮沉：比较浮力和重力",
+      "big_idea": "压强与浮力",
+      "model": "F浮与G比较；漂浮时相等"
+    },
+    {
+      "id": "L042",
+      "level": 3,
+      "title": "功：力什么时候产生了“成果”",
+      "big_idea": "功机械与能量",
+      "model": "力与力方向距离的乘积"
+    },
+    {
+      "id": "L043",
+      "level": 3,
+      "title": "功率：做功有多快",
+      "big_idea": "功机械与能量",
+      "model": "功与时间的比率"
+    },
+    {
+      "id": "L044",
+      "level": 3,
+      "title": "动能、势能与机械能转化",
+      "big_idea": "功机械与能量",
+      "model": "动能↔势能，考虑阻力时部分转为内能"
+    },
+    {
+      "id": "L045",
+      "level": 3,
+      "title": "杠杆模型与平衡条件",
+      "big_idea": "功机械与能量",
+      "model": "力×力臂两侧平衡"
+    },
+    {
+      "id": "L046",
+      "level": 3,
+      "title": "机械效率：有用功占多少",
+      "big_idea": "功机械与能量",
+      "model": "有用功、额外功与总功的能量账本"
+    },
+    {
+      "id": "L047",
+      "level": 3,
+      "title": "分子热运动与内能",
+      "big_idea": "内能与能源",
+      "model": "宏观温度现象连接微观模型"
+    },
+    {
+      "id": "L048",
+      "level": 3,
+      "title": "改变内能的两条路",
+      "big_idea": "内能与能源",
+      "model": "能量转移与能量转化两类路径"
+    },
+    {
+      "id": "L049",
+      "level": 3,
+      "title": "比热容：相同热量为何升温不同",
+      "big_idea": "内能与能源",
+      "model": "质量、温差、物质共同决定吸热"
+    },
+    {
+      "id": "L050",
+      "level": 3,
+      "title": "燃料热值：同质量燃料放热不同",
+      "big_idea": "内能与能源",
+      "model": "燃料质量与完全燃烧放热的比例模型"
+    },
+    {
+      "id": "L051",
+      "level": 3,
+      "title": "能量守恒、效率与方向",
+      "big_idea": "内能与能源",
+      "model": "输入能量=有效+散失"
+    },
+    {
+      "id": "L052",
+      "level": 3,
+      "title": "闭合电路：电流怎样形成通路",
+      "big_idea": "电路",
+      "model": "电源—导线—用电器—开关闭环"
+    },
+    {
+      "id": "L053",
+      "level": 3,
+      "title": "串联和并联：电流有几条路",
+      "big_idea": "电路",
+      "model": "从电流路径识别连接方式"
+    },
+    {
+      "id": "L054",
+      "level": 3,
+      "title": "电流表：让电流可测量",
+      "big_idea": "电流电压电阻",
+      "model": "串联、正进负出、量程合适"
+    },
+    {
+      "id": "L055",
+      "level": 3,
+      "title": "核心实验：串并联电流特点",
+      "big_idea": "电流电压电阻",
+      "model": "节点电流守恒模型"
+    },
+    {
+      "id": "L056",
+      "level": 3,
+      "title": "电压表：测量“推动差”",
+      "big_idea": "电流电压电阻",
+      "model": "电压表并联在被测元件两端"
+    },
+    {
+      "id": "L057",
+      "level": 3,
+      "title": "核心实验：串并联电压特点",
+      "big_idea": "电流电压电阻",
+      "model": "回路电压分配模型"
+    },
+    {
+      "id": "L058",
+      "level": 3,
+      "title": "电阻与滑动变阻器",
+      "big_idea": "电流电压电阻",
+      "model": "同温下材料、长度、横截面积影响电阻；变阻器靠有效长度调节"
+    },
+    {
+      "id": "L059",
+      "level": 3,
+      "title": "核心实验：电流与电压、电阻关系",
+      "big_idea": "欧姆定律",
+      "model": "控制变量建立I-U-R关系"
+    },
+    {
+      "id": "L060",
+      "level": 3,
+      "title": "欧姆定律建模应用",
+      "big_idea": "欧姆定律",
+      "model": "圈定研究对象再配U、I、R"
+    },
+    {
+      "id": "L061",
+      "level": 3,
+      "title": "核心实验：伏安法测电阻",
+      "big_idea": "欧姆定律",
+      "model": "电流表串联、电压表并联、变阻器保护"
+    },
+    {
+      "id": "L062",
+      "level": 3,
+      "title": "电功与电能表",
+      "big_idea": "电功与电功率",
+      "model": "电压、电流和时间共同决定电功"
+    },
+    {
+      "id": "L063",
+      "level": 3,
+      "title": "电功率与小灯泡测量",
+      "big_idea": "电功与电功率",
+      "model": "同一工作状态测U和I后相乘"
+    },
+    {
+      "id": "L064",
+      "level": 3,
+      "title": "焦耳定律：电流为什么发热",
+      "big_idea": "电功与电功率",
+      "model": "控制变量比较电阻丝产热"
+    },
+    {
+      "id": "L065",
+      "level": 3,
+      "title": "家庭电路与安全用电",
+      "big_idea": "电功与电功率",
+      "model": "火线—用电器—零线与接地保护"
+    },
+    {
+      "id": "L066",
+      "level": 3,
+      "title": "磁场：看不见但能用作用检验",
+      "big_idea": "电与磁",
+      "model": "小磁针N极受力方向定义场方向"
+    },
+    {
+      "id": "L067",
+      "level": 3,
+      "title": "核心实验：电流的磁场与通电螺线管",
+      "big_idea": "电与磁",
+      "model": "电流方向决定磁场方向"
+    },
+    {
+      "id": "L068",
+      "level": 3,
+      "title": "磁场对电流的作用与电动机",
+      "big_idea": "电与磁",
+      "model": "电能→机械能；电流或磁场反向则受力反向"
+    },
+    {
+      "id": "L069",
+      "level": 3,
+      "title": "核心实验：电磁感应与发电机",
+      "big_idea": "电与磁",
+      "model": "机械运动—磁场变化—电能"
+    },
+    {
+      "id": "L070",
+      "level": 3,
+      "title": "信息、能源与可持续未来",
+      "big_idea": "能源与现代技术",
+      "model": "需求—证据—约束—方案—评价"
+    }
+  ],
+  "edges": [
+    {
+      "from": "L001",
+      "to": "L002",
+      "type": "prepares"
+    },
+    {
+      "from": "L002",
+      "to": "L003",
+      "type": "prepares"
+    },
+    {
+      "from": "L003",
+      "to": "L004",
+      "type": "prepares"
+    },
+    {
+      "from": "L004",
+      "to": "L005",
+      "type": "prepares"
+    },
+    {
+      "from": "L005",
+      "to": "L006",
+      "type": "prepares"
+    },
+    {
+      "from": "L006",
+      "to": "L007",
+      "type": "prepares"
+    },
+    {
+      "from": "L007",
+      "to": "L008",
+      "type": "prepares"
+    },
+    {
+      "from": "L008",
+      "to": "L009",
+      "type": "prepares"
+    },
+    {
+      "from": "L009",
+      "to": "L010",
+      "type": "prepares"
+    },
+    {
+      "from": "L010",
+      "to": "L011",
+      "type": "prepares"
+    },
+    {
+      "from": "L011",
+      "to": "L012",
+      "type": "prepares"
+    },
+    {
+      "from": "L012",
+      "to": "L013",
+      "type": "prepares"
+    },
+    {
+      "from": "L013",
+      "to": "L014",
+      "type": "prepares"
+    },
+    {
+      "from": "L014",
+      "to": "L015",
+      "type": "prepares"
+    },
+    {
+      "from": "L015",
+      "to": "L016",
+      "type": "prepares"
+    },
+    {
+      "from": "L016",
+      "to": "L017",
+      "type": "prepares"
+    },
+    {
+      "from": "L017",
+      "to": "L018",
+      "type": "prepares"
+    },
+    {
+      "from": "L018",
+      "to": "L019",
+      "type": "prepares"
+    },
+    {
+      "from": "L019",
+      "to": "L020",
+      "type": "prepares"
+    },
+    {
+      "from": "L020",
+      "to": "L021",
+      "type": "prepares"
+    },
+    {
+      "from": "L021",
+      "to": "L022",
+      "type": "prepares"
+    },
+    {
+      "from": "L022",
+      "to": "L023",
+      "type": "prepares"
+    },
+    {
+      "from": "L023",
+      "to": "L024",
+      "type": "prepares"
+    },
+    {
+      "from": "L024",
+      "to": "L025",
+      "type": "prepares"
+    },
+    {
+      "from": "L025",
+      "to": "L026",
+      "type": "prepares"
+    },
+    {
+      "from": "L026",
+      "to": "L027",
+      "type": "prepares"
+    },
+    {
+      "from": "L027",
+      "to": "L028",
+      "type": "prepares"
+    },
+    {
+      "from": "L028",
+      "to": "L029",
+      "type": "prepares"
+    },
+    {
+      "from": "L029",
+      "to": "L030",
+      "type": "prepares"
+    },
+    {
+      "from": "L030",
+      "to": "L031",
+      "type": "prepares"
+    },
+    {
+      "from": "L031",
+      "to": "L032",
+      "type": "prepares"
+    },
+    {
+      "from": "L032",
+      "to": "L033",
+      "type": "prepares"
+    },
+    {
+      "from": "L033",
+      "to": "L034",
+      "type": "prepares"
+    },
+    {
+      "from": "L034",
+      "to": "L035",
+      "type": "prepares"
+    },
+    {
+      "from": "L035",
+      "to": "L036",
+      "type": "prepares"
+    },
+    {
+      "from": "L036",
+      "to": "L037",
+      "type": "prepares"
+    },
+    {
+      "from": "L037",
+      "to": "L038",
+      "type": "prepares"
+    },
+    {
+      "from": "L038",
+      "to": "L039",
+      "type": "prepares"
+    },
+    {
+      "from": "L039",
+      "to": "L040",
+      "type": "prepares"
+    },
+    {
+      "from": "L040",
+      "to": "L041",
+      "type": "prepares"
+    },
+    {
+      "from": "L041",
+      "to": "L042",
+      "type": "prepares"
+    },
+    {
+      "from": "L042",
+      "to": "L043",
+      "type": "prepares"
+    },
+    {
+      "from": "L043",
+      "to": "L044",
+      "type": "prepares"
+    },
+    {
+      "from": "L044",
+      "to": "L045",
+      "type": "prepares"
+    },
+    {
+      "from": "L045",
+      "to": "L046",
+      "type": "prepares"
+    },
+    {
+      "from": "L046",
+      "to": "L047",
+      "type": "prepares"
+    },
+    {
+      "from": "L047",
+      "to": "L048",
+      "type": "prepares"
+    },
+    {
+      "from": "L048",
+      "to": "L049",
+      "type": "prepares"
+    },
+    {
+      "from": "L049",
+      "to": "L050",
+      "type": "prepares"
+    },
+    {
+      "from": "L050",
+      "to": "L051",
+      "type": "prepares"
+    },
+    {
+      "from": "L051",
+      "to": "L052",
+      "type": "prepares"
+    },
+    {
+      "from": "L052",
+      "to": "L053",
+      "type": "prepares"
+    },
+    {
+      "from": "L053",
+      "to": "L054",
+      "type": "prepares"
+    },
+    {
+      "from": "L054",
+      "to": "L055",
+      "type": "prepares"
+    },
+    {
+      "from": "L055",
+      "to": "L056",
+      "type": "prepares"
+    },
+    {
+      "from": "L056",
+      "to": "L057",
+      "type": "prepares"
+    },
+    {
+      "from": "L057",
+      "to": "L058",
+      "type": "prepares"
+    },
+    {
+      "from": "L058",
+      "to": "L059",
+      "type": "prepares"
+    },
+    {
+      "from": "L059",
+      "to": "L060",
+      "type": "prepares"
+    },
+    {
+      "from": "L060",
+      "to": "L061",
+      "type": "prepares"
+    },
+    {
+      "from": "L061",
+      "to": "L062",
+      "type": "prepares"
+    },
+    {
+      "from": "L062",
+      "to": "L063",
+      "type": "prepares"
+    },
+    {
+      "from": "L063",
+      "to": "L064",
+      "type": "prepares"
+    },
+    {
+      "from": "L064",
+      "to": "L065",
+      "type": "prepares"
+    },
+    {
+      "from": "L065",
+      "to": "L066",
+      "type": "prepares"
+    },
+    {
+      "from": "L066",
+      "to": "L067",
+      "type": "prepares"
+    },
+    {
+      "from": "L067",
+      "to": "L068",
+      "type": "prepares"
+    },
+    {
+      "from": "L068",
+      "to": "L069",
+      "type": "prepares"
+    },
+    {
+      "from": "L069",
+      "to": "L070",
+      "type": "prepares"
+    }
+  ]
+}

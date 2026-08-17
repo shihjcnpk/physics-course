@@ -1,0 +1,842 @@
+[
+  {
+    "lesson_id": "L001",
+    "visual": "刻度尺读数图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L002",
+    "visual": "参照物位置对比图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L003",
+    "visual": "路程时间条形图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L004",
+    "visual": "分段时间轴",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L005",
+    "visual": "斜面小车测量图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L006",
+    "visual": "振动传播链图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L007",
+    "visual": "三种波形对比图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L008",
+    "visual": "噪声三环节图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L009",
+    "visual": "温度计读数图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L010",
+    "visual": "三态六箭头图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L011",
+    "visual": "熔化曲线图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L012",
+    "visual": "沸腾装置与曲线图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L013",
+    "visual": "蒸发条件对比图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L014",
+    "visual": "水循环箭头图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L015",
+    "visual": "三孔与影子光路图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L016",
+    "visual": "反射光路图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L017",
+    "visual": "玻璃板成像图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L018",
+    "visual": "空气水界面光路图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L019",
+    "visual": "凸凹透镜光路图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L020",
+    "visual": "光具座区间图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L021",
+    "visual": "三种应用对比图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L022",
+    "visual": "天平平衡图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L023",
+    "visual": "等体积质量对比图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L024",
+    "visual": "量筒排水图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L025",
+    "visual": "宏观到微观尺度轴",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L026",
+    "visual": "相互作用对象图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L027",
+    "visual": "规范力箭头图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L028",
+    "visual": "斜面重力图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L029",
+    "visual": "测力计读数图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L030",
+    "visual": "水平匀速测摩擦图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L031",
+    "visual": "斜面小车推理图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L032",
+    "visual": "刹车状态时间轴",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L033",
+    "visual": "同一直线二力合成与平衡图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L034",
+    "visual": "压力面积对比图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L035",
+    "visual": "压强计深度图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L036",
+    "visual": "吸盘压强差图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L037",
+    "visual": "机翼流线图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L038",
+    "visual": "称重法受力图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L039",
+    "visual": "浸入体积对比图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L040",
+    "visual": "溢水杯证据链图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L041",
+    "visual": "浮沉三状态图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L042",
+    "visual": "力与位移夹向图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L043",
+    "visual": "爬楼功时间图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L044",
+    "visual": "秋千能量条图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L045",
+    "visual": "杠杆五要素图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L046",
+    "visual": "有用额外总功流图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L047",
+    "visual": "扩散微粒图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L048",
+    "visual": "内能路径图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L049",
+    "visual": "水沙升温曲线图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L050",
+    "visual": "燃料能量流图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L051",
+    "visual": "能量流桑基简图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L052",
+    "visual": "最简电路图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L053",
+    "visual": "串并联路径图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L054",
+    "visual": "电流表接线图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L055",
+    "visual": "节点电流箭头图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L056",
+    "visual": "电压表接线图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L057",
+    "visual": "串并联电压图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L058",
+    "visual": "变阻器有效段图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L059",
+    "visual": "I-U图像与电路图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L060",
+    "visual": "局部电路框图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L061",
+    "visual": "伏安法电路图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L062",
+    "visual": "电能流与电能表图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L063",
+    "visual": "测功率电路图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L064",
+    "visual": "串联电热对比图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L065",
+    "visual": "家庭电路安全图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L066",
+    "visual": "条形磁体场线图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L067",
+    "visual": "螺线管小磁针图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L068",
+    "visual": "电动机受力图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L069",
+    "visual": "切割磁感线图",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  },
+  {
+    "lesson_id": "L070",
+    "visual": "方案评价矩阵",
+    "required": true,
+    "accuracy_checks": [
+      "对象清楚",
+      "方向箭头正确",
+      "标签无遮挡",
+      "不暗示错误比例",
+      "只呈现本课变量"
+    ]
+  }
+]

@@ -1,0 +1,3250 @@
+[
+  {
+    "id": 1,
+    "title": "长度和时间：先学会可靠测量",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "测量与科学方法",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.1",
+      "4.1.4"
+    ],
+    "pep_mapping": "八上第1章",
+    "core_question": "怎样把“差不多”变成可比较的数据？",
+    "core_concept": "测量值由数值和单位组成",
+    "core_model": "选量程、分度值、估读并记录",
+    "formula": "—",
+    "math_prerequisite": [
+      "小数",
+      "单位换算"
+    ],
+    "experiment_level": "CORE",
+    "visual": "刻度尺读数图",
+    "activity": "测书本宽度并测30次脉搏时间",
+    "example": "尺上12.30 cm表示精确到毫米并估读一位",
+    "answer": "12.30 cm；末位是估读",
+    "lesson_id": "L001",
+    "common_errors": [
+      "C6单位错误",
+      "C9漏读分度值"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "课程起点：从感觉进入可测量的证据。",
+    "to_next": "为L002《运动和静止：先选参照物》准备相对参照物比较位置。",
+    "knowledge_links": [],
+    "review_links": [],
+    "math_connection": "把小数、单位换算用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 2,
+    "title": "运动和静止：先选参照物",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.1.1",
+      "2.1.3"
+    ],
+    "pep_mapping": "八上第1章",
+    "core_question": "同一个人为什么既能说在动，也能说没动？",
+    "core_concept": "机械运动是位置随时间改变",
+    "core_model": "相对参照物比较位置",
+    "formula": "—",
+    "math_prerequisite": [
+      "坐标与方向"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "参照物位置对比图",
+    "activity": "玩具车旁放橡皮，分别以桌面和车为参照观察",
+    "example": "坐在行驶列车中的人相对座椅静止、相对站台运动",
+    "answer": "两种说法都对，关键是参照物不同",
+    "lesson_id": "L002",
+    "common_errors": [
+      "C1把运动说成绝对",
+      "C4漏参照物"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L001《长度和时间：先学会可靠测量》的测量值由数值和单位组成。",
+    "to_next": "为L003《速度：每1秒走多远》准备单位时间通过的路程。",
+    "knowledge_links": [
+      "L001"
+    ],
+    "review_links": [
+      "L001"
+    ],
+    "math_connection": "把坐标与方向用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 3,
+    "title": "速度：每1秒走多远",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.2"
+    ],
+    "pep_mapping": "八上第1章",
+    "core_question": "路程和时间都不同，怎样公平比快慢？",
+    "core_concept": "速度描述运动快慢",
+    "core_model": "单位时间通过的路程",
+    "formula": "v=s/t",
+    "math_prerequisite": [
+      "除法",
+      "比率",
+      "单位换算"
+    ],
+    "experiment_level": "NONE",
+    "visual": "路程时间条形图",
+    "activity": "比较两辆玩具车不同路程与时间，统一到每1秒",
+    "example": "60 m用12 s，速度是多少",
+    "answer": "5 m/s，表示每秒通过5 m",
+    "lesson_id": "L003",
+    "common_errors": [
+      "C5除法错误",
+      "C6单位错误",
+      "C7只比路程"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L002《运动和静止：先选参照物》的机械运动是位置随时间改变。",
+    "to_next": "为L004《平均速度：一段路整体有多快》准备总路程除以总时间。",
+    "knowledge_links": [
+      "L002",
+      "L001"
+    ],
+    "review_links": [
+      "L002"
+    ],
+    "math_connection": "把除法、比率、单位换算用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 4,
+    "title": "平均速度：一段路整体有多快",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.2"
+    ],
+    "pep_mapping": "八上第1章",
+    "core_question": "忽快忽慢时，怎样描述整段运动？",
+    "core_concept": "平均速度对应一段总过程",
+    "core_model": "总路程除以总时间",
+    "formula": "v平均=s总/t总",
+    "math_prerequisite": [
+      "分数",
+      "加法",
+      "图像"
+    ],
+    "experiment_level": "NONE",
+    "visual": "分段时间轴",
+    "activity": "走快10 m再慢走10 m，记录各段和总时间",
+    "example": "前10 m用2 s、后10 m用3 s，整段平均速度",
+    "answer": "20/5=4 m/s，不能平均两个速度",
+    "lesson_id": "L004",
+    "common_errors": [
+      "C2分段模型错",
+      "C7速度直接平均"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L003《速度：每1秒走多远》的速度描述运动快慢。",
+    "to_next": "为L005《核心实验：测量物体运动速度》准备测距、计时、配对、计算。",
+    "knowledge_links": [
+      "L003",
+      "L001"
+    ],
+    "review_links": [
+      "L003",
+      "L001"
+    ],
+    "math_connection": "把分数、加法、图像用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 5,
+    "title": "核心实验：测量物体运动速度",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.2",
+      "4.1.5"
+    ],
+    "pep_mapping": "八上第1章",
+    "core_question": "怎样用证据判断小车在哪一段更快？",
+    "core_concept": "速度由同一段的路程和时间得到",
+    "core_model": "测距、计时、配对、计算",
+    "formula": "v=s/t",
+    "math_prerequisite": [
+      "小数",
+      "单位换算",
+      "表格"
+    ],
+    "experiment_level": "CORE",
+    "visual": "斜面小车测量图",
+    "activity": "在缓斜面标两段，重复计时并记录数据",
+    "example": "0.8 m用1.6 s，速度是多少",
+    "answer": "0.50 m/s；路程和时间必须来自同一段",
+    "lesson_id": "L005",
+    "common_errors": [
+      "C4数据配错",
+      "C8只测一次"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L004《平均速度：一段路整体有多快》的平均速度对应一段总过程。",
+    "to_next": "为L006《声音从哪里来、怎样传过去》准备声源振动→介质传递→耳接收。",
+    "knowledge_links": [
+      "L004",
+      "L001"
+    ],
+    "review_links": [
+      "L004",
+      "L002"
+    ],
+    "math_connection": "把小数、单位换算、表格用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 6,
+    "title": "声音从哪里来、怎样传过去",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "声音与波的现象",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.3.1"
+    ],
+    "pep_mapping": "八上第2章",
+    "core_question": "看不见的声音为什么能让纸屑跳动？",
+    "core_concept": "声音由振动产生并需介质传播",
+    "core_model": "声源振动→介质传递→耳接收",
+    "formula": "—",
+    "math_prerequisite": [
+      "无"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "振动传播链图",
+    "activity": "摸喉咙、拨橡皮筋，再用纸杯电话比较",
+    "example": "太空舱外爆炸能否直接听见",
+    "answer": "不能；真空不能传声",
+    "lesson_id": "L006",
+    "common_errors": [
+      "C1把声音当物质",
+      "C2漏介质"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L005《核心实验：测量物体运动速度》的速度由同一段的路程和时间得到。",
+    "to_next": "为L007《音调、响度和音色别混淆》准备频率管高低、振幅管强弱、音色辨声源。",
+    "knowledge_links": [
+      "L005",
+      "L001"
+    ],
+    "review_links": [
+      "L005",
+      "L003"
+    ],
+    "math_connection": "本课不要求新的数学工具，重点用观察、分类或画图表达证据。"
+  },
+  {
+    "id": 7,
+    "title": "音调、响度和音色别混淆",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "声音与波的现象",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.3.2"
+    ],
+    "pep_mapping": "八上第2章",
+    "core_question": "同一首歌为什么能听出是谁唱的？",
+    "core_concept": "声音有音调、响度、音色三种特性",
+    "core_model": "频率管高低、振幅管强弱、音色辨声源",
+    "formula": "—",
+    "math_prerequisite": [
+      "大小比较",
+      "坐标图像"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "三种波形对比图",
+    "activity": "弹不同长度橡皮筋并改变拨动力度",
+    "example": "用力拨同一根弦主要改变什么",
+    "answer": "响度；弦的振动频率近似不变",
+    "lesson_id": "L007",
+    "common_errors": [
+      "C1三特性混淆",
+      "C3波形读错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L006《声音从哪里来、怎样传过去》的声音由振动产生并需介质传播。",
+    "to_next": "为L008《声音的利用与噪声控制》准备声源—传播—接收三处分析。",
+    "knowledge_links": [
+      "L006",
+      "L002"
+    ],
+    "review_links": [
+      "L006",
+      "L004"
+    ],
+    "math_connection": "把大小比较、坐标图像用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 8,
+    "title": "声音的利用与噪声控制",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "声音与波的现象",
+    "importance": "★★",
+    "curriculum_standard": [
+      "2.3.2"
+    ],
+    "pep_mapping": "八上第2章",
+    "core_question": "同样是声音，为什么超声能检查身体，噪声却要阻断？",
+    "core_concept": "声可传递信息和能量",
+    "core_model": "声源—传播—接收三处分析",
+    "formula": "—",
+    "math_prerequisite": [
+      "分类"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "噪声三环节图",
+    "activity": "用软布包住响铃，比较声源与传播途径控制",
+    "example": "给临街房间选降噪措施",
+    "answer": "关窗主要在传播途径减弱噪声",
+    "lesson_id": "L008",
+    "common_errors": [
+      "C2控制环节混乱",
+      "C4忽略情境"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L007《音调、响度和音色别混淆》的声音有音调、响度、音色三种特性。",
+    "to_next": "为L009《温度与温度计》准备测温物质随温度规律变化。",
+    "knowledge_links": [
+      "L007",
+      "L003"
+    ],
+    "review_links": [
+      "L007",
+      "L005",
+      "L001"
+    ],
+    "math_connection": "把分类用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 9,
+    "title": "温度与温度计",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "热与物态",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "1.1.2",
+      "4.1.3"
+    ],
+    "pep_mapping": "八上第3章",
+    "core_question": "手觉得一冷一热，能当作可靠测量吗？",
+    "core_concept": "温度表示冷热程度",
+    "core_model": "测温物质随温度规律变化",
+    "formula": "—",
+    "math_prerequisite": [
+      "正负数",
+      "刻度"
+    ],
+    "experiment_level": "CORE",
+    "visual": "温度计读数图",
+    "activity": "三杯水先用手判断再用温度计测量",
+    "example": "温度计示数在0下4格、每格1℃",
+    "answer": "−4℃；视线与液柱顶端相平",
+    "lesson_id": "L009",
+    "common_errors": [
+      "C3读数方向错",
+      "C6漏摄氏度"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L008《声音的利用与噪声控制》的声可传递信息和能量。",
+    "to_next": "为L010《三态与物态变化地图》准备三态之间六种变化方向。",
+    "knowledge_links": [
+      "L008",
+      "L004"
+    ],
+    "review_links": [
+      "L008",
+      "L006",
+      "L002"
+    ],
+    "math_connection": "把正负数、刻度用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 10,
+    "title": "三态与物态变化地图",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "热与物态",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "1.1.1",
+      "1.1.3"
+    ],
+    "pep_mapping": "八上第3章",
+    "core_question": "冰、水和水蒸气是三种物质吗？",
+    "core_concept": "同种物质可处于固液气三态",
+    "core_model": "三态之间六种变化方向",
+    "formula": "—",
+    "math_prerequisite": [
+      "箭头",
+      "分类"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "三态六箭头图",
+    "activity": "观察冰融化和杯外水珠，只先标起点与终点",
+    "example": "冰变水属于什么变化",
+    "answer": "熔化：固态到液态",
+    "lesson_id": "L010",
+    "common_errors": [
+      "C1把水珠说成杯中渗出",
+      "C3箭头反向"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L009《温度与温度计》的温度表示冷热程度。",
+    "to_next": "为L011《熔化和凝固：温度怎样变》准备晶体熔化时吸热、温度保持在熔点。",
+    "knowledge_links": [
+      "L009",
+      "L005"
+    ],
+    "review_links": [
+      "L009",
+      "L007",
+      "L003"
+    ],
+    "math_connection": "把箭头、分类用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 11,
+    "title": "熔化和凝固：温度怎样变",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "热与物态",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "1.1.3"
+    ],
+    "pep_mapping": "八上第3章",
+    "core_question": "冰在熔化时一直吸热，温度会一直升吗？",
+    "core_concept": "晶体在一定条件下有确定熔点",
+    "core_model": "晶体熔化时吸热、温度保持在熔点",
+    "formula": "—",
+    "math_prerequisite": [
+      "坐标图像",
+      "坐标系"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "熔化曲线图",
+    "activity": "用碎冰和温度计观察，或读取规范实验数据",
+    "example": "加热晶体的曲线出现温度平台，同时仍有固液两态，说明什么",
+    "answer": "晶体正在熔化，继续吸热但温度保持在熔点",
+    "lesson_id": "L011",
+    "common_errors": [
+      "C3平台读错",
+      "C1把不升温当不吸热"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L010《三态与物态变化地图》的同种物质可处于固液气三态。",
+    "to_next": "为L012《核心实验：水沸腾前后温度变化》准备持续吸热但沸腾时温度近似不变。",
+    "knowledge_links": [
+      "L010",
+      "L006"
+    ],
+    "review_links": [
+      "L010",
+      "L008",
+      "L004"
+    ],
+    "math_connection": "把坐标图像、坐标系用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 12,
+    "title": "核心实验：水沸腾前后温度变化",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "热与物态",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "1.1.3",
+      "4.2.1"
+    ],
+    "pep_mapping": "八上第3章",
+    "core_question": "水沸腾后继续加热，温度还会升吗？",
+    "core_concept": "沸腾在内部和表面同时汽化",
+    "core_model": "持续吸热但沸腾时温度近似不变",
+    "formula": "—",
+    "math_prerequisite": [
+      "表格",
+      "坐标图像"
+    ],
+    "experiment_level": "CORE",
+    "visual": "沸腾装置与曲线图",
+    "activity": "按分钟记录温度和气泡，画温度—时间图",
+    "example": "水沸腾后读数保持98℃说明什么",
+    "answer": "当地条件下沸点约98℃，继续吸热用于汽化",
+    "lesson_id": "L012",
+    "common_errors": [
+      "C3图像轴错",
+      "C8用一次读数下结论"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L011《熔化和凝固：温度怎样变》的晶体在一定条件下有确定熔点。",
+    "to_next": "为L013《汽化与液化：水去哪了又怎么回来》准备液体↔气体的能量过程。",
+    "knowledge_links": [
+      "L011",
+      "L007"
+    ],
+    "review_links": [
+      "L011",
+      "L009",
+      "L005"
+    ],
+    "math_connection": "把表格、坐标图像用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 13,
+    "title": "汽化与液化：水去哪了又怎么回来",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "热与物态",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "1.1.3"
+    ],
+    "pep_mapping": "八上第3章",
+    "core_question": "湿衣服的水不沸腾，为什么也会消失？",
+    "core_concept": "蒸发可在任何温度发生，液化会放热",
+    "core_model": "液体↔气体的能量过程",
+    "formula": "—",
+    "math_prerequisite": [
+      "大小比较"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "蒸发条件对比图",
+    "activity": "两滴等量水分别摊开与成滴，比较干燥速度",
+    "example": "夏天冰饮料杯外水珠来自哪里",
+    "answer": "空气中水蒸气液化，不是杯内渗水",
+    "lesson_id": "L013",
+    "common_errors": [
+      "C1蒸发等同沸腾",
+      "C2水珠来源错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L012《核心实验：水沸腾前后温度变化》的沸腾在内部和表面同时汽化。",
+    "to_next": "为L014《升华、凝华与水循环》准备固↔气与水循环状态链。",
+    "knowledge_links": [
+      "L012",
+      "L008"
+    ],
+    "review_links": [
+      "L012",
+      "L010",
+      "L006"
+    ],
+    "math_connection": "把大小比较用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 14,
+    "title": "升华、凝华与水循环",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "热与物态",
+    "importance": "★★",
+    "curriculum_standard": [
+      "1.1.3",
+      "1.1.4"
+    ],
+    "pep_mapping": "八上第3章",
+    "core_question": "霜为什么不是从天空落下来的？",
+    "core_concept": "物质可直接在固态和气态间变化",
+    "core_model": "固↔气与水循环状态链",
+    "formula": "—",
+    "math_prerequisite": [
+      "无"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "水循环箭头图",
+    "activity": "观察冷冻室霜或碘升华视频，只追踪物质去向",
+    "example": "窗上冰花通常形成在哪一侧",
+    "answer": "室内侧；水蒸气遇冷凝华",
+    "lesson_id": "L014",
+    "common_errors": [
+      "C3状态箭头错",
+      "C4忽略冷热位置"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L013《汽化与液化：水去哪了又怎么回来》的蒸发可在任何温度发生，液化会放热。",
+    "to_next": "为L015《光沿直线传播》准备用光线表示传播路径。",
+    "knowledge_links": [
+      "L013",
+      "L009"
+    ],
+    "review_links": [
+      "L013",
+      "L011",
+      "L007"
+    ],
+    "math_connection": "本课不要求新的数学工具，重点用观察、分类或画图表达证据。"
+  },
+  {
+    "id": 15,
+    "title": "光沿直线传播",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "光",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.3.6"
+    ],
+    "pep_mapping": "八上第4章",
+    "core_question": "为什么手电筒的光过三个小孔时必须对齐？",
+    "core_concept": "光在同种均匀介质中沿直线传播",
+    "core_model": "用光线表示传播路径",
+    "formula": "—",
+    "math_prerequisite": [
+      "几何直线",
+      "方向"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "三孔与影子光路图",
+    "activity": "让手电筒光通过三张带孔纸，移动中间纸",
+    "example": "影子怎样形成",
+    "answer": "光沿直线传播，物体挡住部分光",
+    "lesson_id": "L015",
+    "common_errors": [
+      "C1漏适用条件",
+      "C3光线不画箭头"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L014《升华、凝华与水循环》的物质可直接在固态和气态间变化。",
+    "to_next": "为L016《核心实验：光的反射定律》准备反射角等于入射角，两线分居法线两侧。",
+    "knowledge_links": [
+      "L014",
+      "L010"
+    ],
+    "review_links": [
+      "L014",
+      "L012",
+      "L008"
+    ],
+    "math_connection": "把几何直线、方向用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 16,
+    "title": "核心实验：光的反射定律",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "光",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.3.3",
+      "4.2.6"
+    ],
+    "pep_mapping": "八上第4章",
+    "core_question": "镜子能把光“弹”到哪里？",
+    "core_concept": "反射光线、入射光线和法线在同一平面内",
+    "core_model": "反射角等于入射角，两线分居法线两侧",
+    "formula": "∠r=∠i",
+    "math_prerequisite": [
+      "几何角",
+      "垂线"
+    ],
+    "experiment_level": "CORE",
+    "visual": "反射光路图",
+    "activity": "用平面镜、纸屏和量角器改变入射角测三组数据",
+    "example": "入射光与镜面夹30°，反射角是多少",
+    "answer": "60°；入射角和反射角都相对法线测量",
+    "lesson_id": "L016",
+    "common_errors": [
+      "C3角相对镜面量",
+      "C8由一组数据定律"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L015《光沿直线传播》的光在同种均匀介质中沿直线传播。",
+    "to_next": "为L017《核心实验：平面镜成像》准备像物关于镜面对称。",
+    "knowledge_links": [
+      "L015",
+      "L011"
+    ],
+    "review_links": [
+      "L015",
+      "L013",
+      "L009"
+    ],
+    "math_connection": "把几何角、垂线用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 17,
+    "title": "核心实验：平面镜成像",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "光",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.3.4",
+      "4.2.7"
+    ],
+    "pep_mapping": "八上第4章",
+    "core_question": "镜中的像能落在纸屏上吗？",
+    "core_concept": "平面镜成等大正立虚像",
+    "core_model": "像物关于镜面对称",
+    "formula": "像距=物距",
+    "math_prerequisite": [
+      "垂线",
+      "对称"
+    ],
+    "experiment_level": "CORE",
+    "visual": "玻璃板成像图",
+    "activity": "玻璃板前后用两支相同蜡烛定位像，再放光屏",
+    "example": "人离镜1 m，像离人多远",
+    "answer": "2 m；像在镜后1 m",
+    "lesson_id": "L017",
+    "common_errors": [
+      "C3把像画成实线光线会聚",
+      "C5漏总距离"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L016《核心实验：光的反射定律》的反射光线、入射光线和法线在同一平面内。",
+    "to_next": "为L018《光的折射：方向为什么改变》准备入射介质—界面—折射光线模型。",
+    "knowledge_links": [
+      "L016",
+      "L012"
+    ],
+    "review_links": [
+      "L016",
+      "L014",
+      "L010"
+    ],
+    "math_connection": "把垂线、对称用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 18,
+    "title": "光的折射：方向为什么改变",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "光",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.3.3"
+    ],
+    "pep_mapping": "八上第4章",
+    "core_question": "水里的筷子为什么像折断了？",
+    "core_concept": "光斜入不同介质时传播方向通常改变",
+    "core_model": "入射介质—界面—折射光线模型",
+    "formula": "—",
+    "math_prerequisite": [
+      "几何角",
+      "垂线"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "空气水界面光路图",
+    "activity": "激光斜射入水，观察并画入射与折射路径",
+    "example": "从空气斜射入水，光线通常靠近哪条线",
+    "answer": "法线",
+    "lesson_id": "L018",
+    "common_errors": [
+      "C3法线漏画",
+      "C7背方向不看传播介质"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L017《核心实验：平面镜成像》的平面镜成等大正立虚像。",
+    "to_next": "为L019《透镜怎样改变光束》准备三条特殊光线建立透镜模型。",
+    "knowledge_links": [
+      "L017",
+      "L013"
+    ],
+    "review_links": [
+      "L017",
+      "L015",
+      "L011"
+    ],
+    "math_connection": "把几何角、垂线用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 19,
+    "title": "透镜怎样改变光束",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "光",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.3.5"
+    ],
+    "pep_mapping": "八上第5章",
+    "core_question": "放大镜为什么能把太阳光聚成亮点？",
+    "core_concept": "凸透镜会聚、凹透镜发散",
+    "core_model": "三条特殊光线建立透镜模型",
+    "formula": "—",
+    "math_prerequisite": [
+      "几何直线",
+      "对称"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "凸凹透镜光路图",
+    "activity": "用手电筒和平行光纸卡观察两类透镜后的光束",
+    "example": "平行光经凸透镜后经过哪里",
+    "answer": "焦点",
+    "lesson_id": "L019",
+    "common_errors": [
+      "C1凭厚薄认错",
+      "C3折射光线方向错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L018《光的折射：方向为什么改变》的光斜入不同介质时传播方向通常改变。",
+    "to_next": "为L020《核心实验：凸透镜成像规律》准备物距—焦距区间决定像的位置与性质。",
+    "knowledge_links": [
+      "L018",
+      "L014"
+    ],
+    "review_links": [
+      "L018",
+      "L016",
+      "L012"
+    ],
+    "math_connection": "把几何直线、对称用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 20,
+    "title": "核心实验：凸透镜成像规律",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "光",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.3.5",
+      "4.2.8"
+    ],
+    "pep_mapping": "八上第5章",
+    "core_question": "物体靠近透镜，像会怎样变？",
+    "core_concept": "像的性质随物距区间改变",
+    "core_model": "物距—焦距区间决定像的位置与性质",
+    "formula": "—",
+    "math_prerequisite": [
+      "不等式",
+      "表格"
+    ],
+    "experiment_level": "CORE",
+    "visual": "光具座区间图",
+    "activity": "固定焦距，改变物距并在光屏上找清晰像",
+    "example": "物距大于2f时像有何特点",
+    "answer": "倒立、缩小、实像，像在f与2f之间",
+    "lesson_id": "L020",
+    "common_errors": [
+      "C4未先比较u与f",
+      "C8找不到像就下结论"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L019《透镜怎样改变光束》的凸透镜会聚、凹透镜发散。",
+    "to_next": "为L021《凸透镜应用与眼睛》准备成像区间→器件功能。",
+    "knowledge_links": [
+      "L019",
+      "L015"
+    ],
+    "review_links": [
+      "L019",
+      "L017",
+      "L013"
+    ],
+    "math_connection": "把不等式、表格用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 21,
+    "title": "凸透镜应用与眼睛",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "光",
+    "importance": "★★",
+    "curriculum_standard": [
+      "2.3.5"
+    ],
+    "pep_mapping": "八上第5章",
+    "core_question": "照相机、投影仪、放大镜为什么都用凸透镜？",
+    "core_concept": "不同物距区间对应不同应用",
+    "core_model": "成像区间→器件功能",
+    "formula": "—",
+    "math_prerequisite": [
+      "区间",
+      "比例"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "三种应用对比图",
+    "activity": "用凸透镜分别看近字和远景，比较能否在纸上接像",
+    "example": "近视眼用什么透镜矫正",
+    "answer": "凹透镜，使光先发散再进入眼睛",
+    "lesson_id": "L021",
+    "common_errors": [
+      "C2器件区间混淆",
+      "C1虚像可接屏"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L020《核心实验：凸透镜成像规律》的像的性质随物距区间改变。",
+    "to_next": "为L022《质量：物体含有多少物质》准备天平比较物体质量。",
+    "knowledge_links": [
+      "L020",
+      "L016"
+    ],
+    "review_links": [
+      "L020",
+      "L018",
+      "L014"
+    ],
+    "math_connection": "把区间、比例用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 22,
+    "title": "质量：物体含有多少物质",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "质量与密度",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "1.2.2",
+      "4.1.1"
+    ],
+    "pep_mapping": "八上第6章",
+    "core_question": "冰化成水后，质量会改变吗？",
+    "core_concept": "质量不随形状、状态、位置轻易改变",
+    "core_model": "天平比较物体质量",
+    "formula": "—",
+    "math_prerequisite": [
+      "小数",
+      "单位换算"
+    ],
+    "experiment_level": "CORE",
+    "visual": "天平平衡图",
+    "activity": "按调平—左物右码—读数测木块和水质量",
+    "example": "砝码50 g、游码2.4 g，物体质量",
+    "answer": "52.4 g",
+    "lesson_id": "L022",
+    "common_errors": [
+      "C6千克克换算错",
+      "C9天平未调平"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L021《凸透镜应用与眼睛》的不同物距区间对应不同应用。",
+    "to_next": "为L023《密度：相同体积为什么轻重不同》准备质量—体积比率模型。",
+    "knowledge_links": [
+      "L021",
+      "L017"
+    ],
+    "review_links": [
+      "L021",
+      "L019",
+      "L015"
+    ],
+    "math_connection": "把小数、单位换算用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 23,
+    "title": "密度：相同体积为什么轻重不同",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "质量与密度",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "1.2.3"
+    ],
+    "pep_mapping": "八上第6章",
+    "core_question": "同样大小的铁块和木块为什么轻重不同？",
+    "core_concept": "密度是单位体积的质量",
+    "core_model": "质量—体积比率模型",
+    "formula": "ρ=m/V",
+    "math_prerequisite": [
+      "比",
+      "体积",
+      "单位换算"
+    ],
+    "experiment_level": "NONE",
+    "visual": "等体积质量对比图",
+    "activity": "比较等体积水和食用油质量，统一到1 cm³",
+    "example": "质量178 g、体积20 cm³，密度",
+    "answer": "8.9 g/cm³",
+    "lesson_id": "L023",
+    "common_errors": [
+      "C5比值颠倒",
+      "C6密度单位错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L022《质量：物体含有多少物质》的质量不随形状、状态、位置轻易改变。",
+    "to_next": "为L024《核心实验：测固体和液体密度》准备天平测质量、排水测体积、计算密度。",
+    "knowledge_links": [
+      "L022",
+      "L018"
+    ],
+    "review_links": [
+      "L022",
+      "L020",
+      "L016"
+    ],
+    "math_connection": "把比、体积、单位换算用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 24,
+    "title": "核心实验：测固体和液体密度",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "质量与密度",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "1.2.3",
+      "4.1.2"
+    ],
+    "pep_mapping": "八上第6章",
+    "core_question": "不规则石块的体积怎样测？",
+    "core_concept": "密度测量需配对同一物体的质量和体积",
+    "core_model": "天平测质量、排水测体积、计算密度",
+    "formula": "ρ=m/V",
+    "math_prerequisite": [
+      "体积差",
+      "小数"
+    ],
+    "experiment_level": "CORE",
+    "visual": "量筒排水图",
+    "activity": "测石块质量，再读放入前后水体积差；另测液体密度",
+    "example": "石块54 g，水从30到50 mL，密度",
+    "answer": "2.7 g/cm³",
+    "lesson_id": "L024",
+    "common_errors": [
+      "C4质量体积非同一对象",
+      "C5体积差错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L023《密度：相同体积为什么轻重不同》的密度是单位体积的质量。",
+    "to_next": "为L025《物质属性、微观结构与尺度》准备属性—用途—尺度证据链。",
+    "knowledge_links": [
+      "L023",
+      "L019"
+    ],
+    "review_links": [
+      "L023",
+      "L021",
+      "L017"
+    ],
+    "math_connection": "把体积差、小数用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 25,
+    "title": "物质属性、微观结构与尺度",
+    "grade": "八年级",
+    "semester": "上册",
+    "big_idea": "测量与科学方法",
+    "importance": "★",
+    "curriculum_standard": [
+      "1.2.1",
+      "1.2.4",
+      "1.3.1",
+      "1.3.2",
+      "1.3.3",
+      "1.3.4"
+    ],
+    "pep_mapping": "八上第6章融合阅读",
+    "core_question": "材料为什么要按用途选择？",
+    "core_concept": "物质属性来自结构并服务技术选择",
+    "core_model": "属性—用途—尺度证据链",
+    "formula": "—",
+    "math_prerequisite": [
+      "数量级",
+      "排序"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "宏观到微观尺度轴",
+    "activity": "比较金属和木材导热，给原子到宇宙排序",
+    "example": "锅身和锅柄应分别看重什么属性",
+    "answer": "锅身导热好，锅柄导热差且耐热",
+    "lesson_id": "L025",
+    "common_errors": [
+      "C1把用途当属性",
+      "C4忽略选择条件"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础",
+    "visual_required": true,
+    "from_previous": "承接L024《核心实验：测固体和液体密度》的密度测量需配对同一物体的质量和体积。",
+    "to_next": "为L026《力：看作用效果与相互作用》准备施力物—受力物成对分析。",
+    "knowledge_links": [
+      "L024",
+      "L020"
+    ],
+    "review_links": [
+      "L024",
+      "L022",
+      "L018"
+    ],
+    "math_connection": "把数量级、排序用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 26,
+    "title": "力：看作用效果与相互作用",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "力与运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.3"
+    ],
+    "pep_mapping": "八下第7章",
+    "core_question": "手推墙时，为什么手也会疼？",
+    "core_concept": "力是物体对物体的作用",
+    "core_model": "施力物—受力物成对分析",
+    "formula": "—",
+    "math_prerequisite": [
+      "方向",
+      "箭头"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "相互作用对象图",
+    "activity": "挤气球、推墙，分别说出施力物和受力物",
+    "example": "脚踢球时谁受力",
+    "answer": "球受脚的力，脚也受球的力",
+    "lesson_id": "L026",
+    "common_errors": [
+      "C1只说“有力”不说对象",
+      "C2漏相互作用"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L025《物质属性、微观结构与尺度》的物质属性来自结构并服务技术选择。",
+    "to_next": "为L027《力的三要素与示意图》准备用带比例或标值箭头表示力。",
+    "knowledge_links": [
+      "L025",
+      "L021"
+    ],
+    "review_links": [
+      "L025",
+      "L023",
+      "L019"
+    ],
+    "math_connection": "把方向、箭头用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 27,
+    "title": "力的三要素与示意图",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "力与运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.4"
+    ],
+    "pep_mapping": "八下第7章",
+    "core_question": "同样大小的力，为什么推门位置不同效果不同？",
+    "core_concept": "力有大小、方向、作用点",
+    "core_model": "用带比例或标值箭头表示力",
+    "formula": "—",
+    "math_prerequisite": [
+      "比例",
+      "方向"
+    ],
+    "experiment_level": "NONE",
+    "visual": "规范力箭头图",
+    "activity": "在门上不同位置推，画出作用点和方向",
+    "example": "画水平向右5 N的推力",
+    "answer": "箭头起于作用点、向右并标F=5 N",
+    "lesson_id": "L027",
+    "common_errors": [
+      "C3箭头起点错",
+      "C6漏力值单位"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L026《力：看作用效果与相互作用》的力是物体对物体的作用。",
+    "to_next": "为L028《重力：方向总指向哪里》准备重心处竖直向下。",
+    "knowledge_links": [
+      "L026",
+      "L022"
+    ],
+    "review_links": [
+      "L026",
+      "L024",
+      "L020"
+    ],
+    "math_connection": "把比例、方向用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 28,
+    "title": "重力：方向总指向哪里",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "力与运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.3"
+    ],
+    "pep_mapping": "八下第7章",
+    "core_question": "站在斜坡上，重力会沿斜坡向下吗？",
+    "core_concept": "重力是地球对物体的吸引",
+    "core_model": "重心处竖直向下",
+    "formula": "G=mg",
+    "math_prerequisite": [
+      "乘法",
+      "比例"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "斜面重力图",
+    "activity": "悬挂小重物观察重垂线，再在斜面图画重力",
+    "example": "2 kg物体重力约多少，取g=10 N/kg",
+    "answer": "20 N，方向竖直向下",
+    "lesson_id": "L028",
+    "common_errors": [
+      "C3把竖直当垂直斜面",
+      "C6质量单位未化kg"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L027《力的三要素与示意图》的力有大小、方向、作用点。",
+    "to_next": "为L029《弹力与弹簧测力计》准备在限度内形变量反映力大小。",
+    "knowledge_links": [
+      "L027",
+      "L023"
+    ],
+    "review_links": [
+      "L027",
+      "L025",
+      "L021"
+    ],
+    "math_connection": "把乘法、比例用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 29,
+    "title": "弹力与弹簧测力计",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "力与运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.3",
+      "4.1.6"
+    ],
+    "pep_mapping": "八下第7章",
+    "core_question": "拉得越长，弹簧的拉力一定越大吗？",
+    "core_concept": "弹性形变产生弹力且有弹性限度",
+    "core_model": "在限度内形变量反映力大小",
+    "formula": "—",
+    "math_prerequisite": [
+      "刻度",
+      "比例"
+    ],
+    "experiment_level": "CORE",
+    "visual": "测力计读数图",
+    "activity": "检查零点、量程、分度值，体验并测量1 N与书的重力",
+    "example": "测力计每大格1 N分5小格，指3小格",
+    "answer": "0.6 N",
+    "lesson_id": "L029",
+    "common_errors": [
+      "C9未校零",
+      "C7超过量程仍使用"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L028《重力：方向总指向哪里》的重力是地球对物体的吸引。",
+    "to_next": "为L030《核心实验：滑动摩擦力受什么影响》准备水平匀速时拉力等于摩擦力。",
+    "knowledge_links": [
+      "L028",
+      "L024"
+    ],
+    "review_links": [
+      "L028",
+      "L026",
+      "L022"
+    ],
+    "math_connection": "把刻度、比例用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 30,
+    "title": "核心实验：滑动摩擦力受什么影响",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "力与运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.3",
+      "4.2.2"
+    ],
+    "pep_mapping": "八下第8章",
+    "core_question": "给箱子加重和铺毛巾，哪种更难拉？",
+    "core_concept": "滑动摩擦与压力和接触面粗糙程度有关",
+    "core_model": "水平匀速时拉力等于摩擦力",
+    "formula": "F拉=f",
+    "math_prerequisite": [
+      "表格"
+    ],
+    "experiment_level": "CORE",
+    "visual": "水平匀速测摩擦图",
+    "activity": "只改变压力或粗糙程度，匀速拉木块记录力",
+    "example": "研究粗糙程度时什么必须相同",
+    "answer": "压力等条件相同",
+    "lesson_id": "L030",
+    "common_errors": [
+      "C2未利用平衡间接测量",
+      "C4同时改两个变量"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L029《弹力与弹簧测力计》的弹性形变产生弹力且有弹性限度。",
+    "to_next": "为L031《牛顿第一定律：没有力会怎样》准备阻力逐渐减小→运动保持更久→理想无阻力。",
+    "knowledge_links": [
+      "L029",
+      "L025"
+    ],
+    "review_links": [
+      "L029",
+      "L027",
+      "L023"
+    ],
+    "math_connection": "把表格用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 31,
+    "title": "牛顿第一定律：没有力会怎样",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "力与运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.5"
+    ],
+    "pep_mapping": "八下第8章",
+    "core_question": "小车不推为什么会停，真是“不受力就停”吗？",
+    "core_concept": "力不是维持运动的原因",
+    "core_model": "阻力逐渐减小→运动保持更久→理想无阻力",
+    "formula": "—",
+    "math_prerequisite": [
+      "逻辑推理",
+      "图像趋势"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "斜面小车推理图",
+    "activity": "比较毛巾、木板、玻璃面上小车滑行距离并外推",
+    "example": "运动物体不受力将怎样",
+    "answer": "保持匀速直线运动",
+    "lesson_id": "L031",
+    "common_errors": [
+      "C1把力当维持运动",
+      "C2实验结论直接等同无阻力"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L030《核心实验：滑动摩擦力受什么影响》的滑动摩擦与压力和接触面粗糙程度有关。",
+    "to_next": "为L032《惯性：物体想保持原状态》准备刹车前后分别比较人和车状态。",
+    "knowledge_links": [
+      "L030",
+      "L026"
+    ],
+    "review_links": [
+      "L030",
+      "L028",
+      "L024"
+    ],
+    "math_connection": "把逻辑推理、图像趋势用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 32,
+    "title": "惯性：物体想保持原状态",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "力与运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.5"
+    ],
+    "pep_mapping": "八下第8章",
+    "core_question": "公交车急刹车，人为什么向前倾？",
+    "core_concept": "一切物体都有保持原运动状态的性质",
+    "core_model": "刹车前后分别比较人和车状态",
+    "formula": "—",
+    "math_prerequisite": [
+      "大小比较"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "刹车状态时间轴",
+    "activity": "抽走纸片观察硬币落杯，再口述前后状态",
+    "example": "跳远助跑为什么有用",
+    "answer": "起跳后身体因惯性保持较大向前速度",
+    "lesson_id": "L032",
+    "common_errors": [
+      "C1说“受到惯性力”",
+      "C4漏原状态"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L031《牛顿第一定律：没有力会怎样》的力不是维持运动的原因。",
+    "to_next": "为L033《同一直线上二力的合成：平衡是特殊情况》准备先定正方向；同向相加、反向相减；合力为零时检查同体等大反向共线。",
+    "knowledge_links": [
+      "L031",
+      "L027"
+    ],
+    "review_links": [
+      "L031",
+      "L029",
+      "L025"
+    ],
+    "math_connection": "把大小比较用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 33,
+    "title": "同一直线上二力的合成：平衡是特殊情况",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "力与运动",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.4"
+    ],
+    "pep_mapping": "八下第8章",
+    "core_question": "两个方向相同或相反的力一起作用，总效果怎样判断？",
+    "core_concept": "同一直线上同向二力相加、反向二力相减；合力为零是二力平衡的特殊情况",
+    "core_model": "先定正方向；同向相加、反向相减；合力为零时检查同体等大反向共线",
+    "formula": "—",
+    "math_prerequisite": [
+      "加法",
+      "减法",
+      "方向"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "同一直线二力合成与平衡图",
+    "activity": "用两端钩码拉卡片，先比较同向与反向合力，再让反向二力等大观察平衡",
+    "example": "物体受向右6 N和向左4 N的力，合力怎样",
+    "answer": "合力为2 N，方向向右；若两力等大反向且作用在同一物体同一直线上，合力才为零",
+    "lesson_id": "L033",
+    "common_errors": [
+      "C2把相互作用力当平衡力",
+      "C3反向相减后漏合力方向"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L032《惯性：物体想保持原状态》的一切物体都有保持原运动状态的性质。",
+    "to_next": "为L034《压强：同样的力为什么效果不同》准备压力与受力面积共同决定效果。",
+    "knowledge_links": [
+      "L032",
+      "L028"
+    ],
+    "review_links": [
+      "L032",
+      "L030",
+      "L026"
+    ],
+    "math_connection": "把加法、减法、方向用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 34,
+    "title": "压强：同样的力为什么效果不同",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "压强与浮力",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.7"
+    ],
+    "pep_mapping": "八下第9章",
+    "core_question": "书包带为什么要做宽？",
+    "core_concept": "压强表示单位面积承受的压力",
+    "core_model": "压力与受力面积共同决定效果",
+    "formula": "p=F/S",
+    "math_prerequisite": [
+      "面积",
+      "除法",
+      "单位换算"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "压力面积对比图",
+    "activity": "同一块橡皮分别平放和竖放在海绵上",
+    "example": "600 N站在0.04 m²地面，压强",
+    "answer": "15000 Pa",
+    "lesson_id": "L034",
+    "common_errors": [
+      "C5面积换算错",
+      "C7只看压力"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L033《同一直线上二力的合成：平衡是特殊情况》的同一直线上同向二力相加、反向二力相减；合力为零是二力平衡的特殊情况。",
+    "to_next": "为L035《核心实验：液体压强受什么影响》准备同种液体压强随深度增加；同深度看密度。",
+    "knowledge_links": [
+      "L033",
+      "L029"
+    ],
+    "review_links": [
+      "L033",
+      "L031",
+      "L027"
+    ],
+    "math_connection": "把面积、除法、单位换算用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 35,
+    "title": "核心实验：液体压强受什么影响",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "压强与浮力",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.8",
+      "4.2.3"
+    ],
+    "pep_mapping": "八下第9章",
+    "core_question": "潜水越深，耳朵为什么越不舒服？",
+    "core_concept": "液体内部向各方向有压强",
+    "core_model": "同种液体压强随深度增加；同深度看密度",
+    "formula": "—",
+    "math_prerequisite": [
+      "表格",
+      "位置与距离"
+    ],
+    "experiment_level": "CORE",
+    "visual": "压强计深度图",
+    "activity": "改变探头深度、方向和液体种类，观察U形管高度差",
+    "example": "研究深度影响时保持什么相同",
+    "answer": "液体种类和探头方向等相同",
+    "lesson_id": "L035",
+    "common_errors": [
+      "C4把离容器底距离当深度",
+      "C8一次数据下结论"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L034《压强：同样的力为什么效果不同》的压强表示单位面积承受的压力。",
+    "to_next": "为L036《大气压：空气也在用力》准备内外压强差产生效果。",
+    "knowledge_links": [
+      "L034",
+      "L030"
+    ],
+    "review_links": [
+      "L034",
+      "L032",
+      "L028"
+    ],
+    "math_connection": "把表格、位置与距离用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 36,
+    "title": "大气压：空气也在用力",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "压强与浮力",
+    "importance": "★★",
+    "curriculum_standard": [
+      "2.2.8"
+    ],
+    "pep_mapping": "八下第9章",
+    "core_question": "吸盘为什么能贴在墙上？",
+    "core_concept": "大气有压强且向各方向作用",
+    "core_model": "内外压强差产生效果",
+    "formula": "—",
+    "math_prerequisite": [
+      "面积",
+      "估算"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "吸盘压强差图",
+    "activity": "用装水杯和纸片倒置，观察纸片不落",
+    "example": "吸管吸饮料是谁把液体压上来",
+    "answer": "大气压把液体压入低压的吸管",
+    "lesson_id": "L036",
+    "common_errors": [
+      "C1说嘴把水“吸上来”",
+      "C2漏压强差"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L035《核心实验：液体压强受什么影响》的液体内部向各方向有压强。",
+    "to_next": "为L037《流体压强与流速》准备两侧流速差→压强差→受力。",
+    "knowledge_links": [
+      "L035",
+      "L031"
+    ],
+    "review_links": [
+      "L035",
+      "L033",
+      "L029"
+    ],
+    "math_connection": "把面积、估算用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 37,
+    "title": "流体压强与流速",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "压强与浮力",
+    "importance": "★★",
+    "curriculum_standard": [
+      "2.2.8"
+    ],
+    "pep_mapping": "八下第9章",
+    "core_question": "两张纸中间吹气，为什么纸反而靠近？",
+    "core_concept": "在常见稳定流动比较中，流速较大处压强较小",
+    "core_model": "两侧流速差→压强差→受力",
+    "formula": "—",
+    "math_prerequisite": [
+      "大小比较",
+      "箭头"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "机翼流线图",
+    "activity": "平行悬挂两纸条，从中间吹气并预测",
+    "example": "火车站安全线为什么要退后",
+    "answer": "列车旁空气流速较大、压强较小，外侧压强可能把人推近",
+    "lesson_id": "L037",
+    "common_errors": [
+      "C1说气流把纸吹开",
+      "C3压强箭头反"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L036《大气压：空气也在用力》的大气有压强且向各方向作用。",
+    "to_next": "为L038《浮力：浸在流体里的向上作用》准备弹簧测力计示数差测浮力。",
+    "knowledge_links": [
+      "L036",
+      "L032"
+    ],
+    "review_links": [
+      "L036",
+      "L034",
+      "L030"
+    ],
+    "math_connection": "把大小比较、箭头用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 38,
+    "title": "浮力：浸在流体里的向上作用",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "压强与浮力",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.9"
+    ],
+    "pep_mapping": "八下第10章",
+    "core_question": "铁块在水里为什么“变轻”？",
+    "core_concept": "浮力是流体对浸入物体向上的作用",
+    "core_model": "弹簧测力计示数差测浮力",
+    "formula": "F浮=G-F示",
+    "math_prerequisite": [
+      "减法"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "称重法受力图",
+    "activity": "先在空气再浸水读取测力计，比较示数",
+    "example": "空气5 N、水中3 N，浮力",
+    "answer": "2 N",
+    "lesson_id": "L038",
+    "common_errors": [
+      "C2把示数当浮力",
+      "C3漏竖直向上"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L037《流体压强与流速》的在常见稳定流动比较中，流速较大处压强较小。",
+    "to_next": "为L039《核心实验：浮力大小受什么影响》准备控制变量比较称重差。",
+    "knowledge_links": [
+      "L037",
+      "L033"
+    ],
+    "review_links": [
+      "L037",
+      "L035",
+      "L031"
+    ],
+    "math_connection": "把减法用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 39,
+    "title": "核心实验：浮力大小受什么影响",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "压强与浮力",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.9",
+      "4.2.4"
+    ],
+    "pep_mapping": "八下第10章",
+    "core_question": "物体浸得更深，浮力一定更大吗？",
+    "core_concept": "浮力与排开液体体积、液体密度有关",
+    "core_model": "控制变量比较称重差",
+    "formula": "F浮=G-F示",
+    "math_prerequisite": [
+      "表格"
+    ],
+    "experiment_level": "CORE",
+    "visual": "浸入体积对比图",
+    "activity": "改变浸入体积、液体种类；完全浸没后再改深度",
+    "example": "完全浸没后继续下沉，浮力通常怎样",
+    "answer": "若液体密度不变且未触底，浮力不变",
+    "lesson_id": "L039",
+    "common_errors": [
+      "C4把深度与排开体积混淆",
+      "C8触底数据仍采用"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L038《浮力：浸在流体里的向上作用》的浮力是流体对浸入物体向上的作用。",
+    "to_next": "为L040《阿基米德原理：浮力等于排开液体的重》准备排液质量→排液重力→浮力。",
+    "knowledge_links": [
+      "L038",
+      "L034"
+    ],
+    "review_links": [
+      "L038",
+      "L036",
+      "L032"
+    ],
+    "math_connection": "把表格用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 40,
+    "title": "阿基米德原理：浮力等于排开液体的重",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "压强与浮力",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.9"
+    ],
+    "pep_mapping": "八下第10章",
+    "core_question": "溢出的水和物体受到的浮力有什么关系？",
+    "core_concept": "浮力等于排开流体所受重力",
+    "core_model": "排液质量→排液重力→浮力",
+    "formula": "F浮=G排=ρ液gV排",
+    "math_prerequisite": [
+      "体积",
+      "乘法",
+      "比例"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "溢水杯证据链图",
+    "activity": "用溢水杯收集排水并比较其重与浮力",
+    "example": "排开0.2 kg水，取g=10，浮力",
+    "answer": "2 N",
+    "lesson_id": "L040",
+    "common_errors": [
+      "C6密度单位错",
+      "C7用物体总体积代排液体积"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L039《核心实验：浮力大小受什么影响》的浮力与排开液体体积、液体密度有关。",
+    "to_next": "为L041《物体浮沉：比较浮力和重力》准备F浮与G比较；漂浮时相等。",
+    "knowledge_links": [
+      "L039",
+      "L035"
+    ],
+    "review_links": [
+      "L039",
+      "L037",
+      "L033"
+    ],
+    "math_connection": "把体积、乘法、比例用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 41,
+    "title": "物体浮沉：比较浮力和重力",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "压强与浮力",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.9"
+    ],
+    "pep_mapping": "八下第10章",
+    "core_question": "钢铁会沉，钢船为什么能浮？",
+    "core_concept": "浮沉取决于竖直方向浮力和重力关系",
+    "core_model": "F浮与G比较；漂浮时相等",
+    "formula": "—",
+    "math_prerequisite": [
+      "不等式"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "浮沉三状态图",
+    "activity": "橡皮泥先团成球再捏成船形放水中",
+    "example": "漂浮物质量增大后排水怎样变",
+    "answer": "在仍能漂浮且液体不变时，会排开更多水，直到浮力重新等于重力",
+    "lesson_id": "L041",
+    "common_errors": [
+      "C2只比较材料密度",
+      "C3浮沉力箭头错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L040《阿基米德原理：浮力等于排开液体的重》的浮力等于排开流体所受重力。",
+    "to_next": "为L042《功：力什么时候产生了“成果”》准备力与力方向距离的乘积。",
+    "knowledge_links": [
+      "L040",
+      "L036"
+    ],
+    "review_links": [
+      "L040",
+      "L038",
+      "L034"
+    ],
+    "math_connection": "把不等式用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 42,
+    "title": "功：力什么时候产生了“成果”",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "功机械与能量",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.1.3",
+      "3.2.2"
+    ],
+    "pep_mapping": "八下第11章",
+    "core_question": "提着书包水平走，手对书包做机械功吗？",
+    "core_concept": "功需要力且物体沿力方向移动距离",
+    "core_model": "力与力方向距离的乘积",
+    "formula": "W=Fs",
+    "math_prerequisite": [
+      "乘法",
+      "单位换算"
+    ],
+    "experiment_level": "NONE",
+    "visual": "力与位移夹向图",
+    "activity": "对比推车前进、提物静止、提物水平走",
+    "example": "10 N水平推物前进3 m，做功",
+    "answer": "30 J",
+    "lesson_id": "L042",
+    "common_errors": [
+      "C4漏力方向",
+      "C7有力就判做功"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L041《物体浮沉：比较浮力和重力》的浮沉取决于竖直方向浮力和重力关系。",
+    "to_next": "为L043《功率：做功有多快》准备功与时间的比率。",
+    "knowledge_links": [
+      "L041",
+      "L037"
+    ],
+    "review_links": [
+      "L041",
+      "L039",
+      "L035"
+    ],
+    "math_connection": "把乘法、单位换算用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 43,
+    "title": "功率：做功有多快",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "功机械与能量",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.2.2"
+    ],
+    "pep_mapping": "八下第11章",
+    "core_question": "同样爬楼，跑上去和走上去哪里不同？",
+    "core_concept": "功率表示单位时间做功",
+    "core_model": "功与时间的比率",
+    "formula": "P=W/t",
+    "math_prerequisite": [
+      "除法",
+      "比率"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "爬楼功时间图",
+    "activity": "记录走与快走同一楼梯的时间，比较功率",
+    "example": "做600 J功用3 s，功率",
+    "answer": "200 W",
+    "lesson_id": "L043",
+    "common_errors": [
+      "C1功多等同功率大",
+      "C6瓦特单位错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L042《功：力什么时候产生了“成果”》的功需要力且物体沿力方向移动距离。",
+    "to_next": "为L044《动能、势能与机械能转化》准备动能↔势能，考虑阻力时部分转为内能。",
+    "knowledge_links": [
+      "L042",
+      "L038"
+    ],
+    "review_links": [
+      "L042",
+      "L040",
+      "L036"
+    ],
+    "math_connection": "把除法、比率用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 44,
+    "title": "动能、势能与机械能转化",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "功机械与能量",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.1.1",
+      "3.1.2",
+      "3.2.1"
+    ],
+    "pep_mapping": "八下第11章",
+    "core_question": "秋千为什么能来回摆但不会越摆越高？",
+    "core_concept": "运动和位置可储存机械能",
+    "core_model": "动能↔势能，考虑阻力时部分转为内能",
+    "formula": "—",
+    "math_prerequisite": [
+      "图像趋势"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "秋千能量条图",
+    "activity": "滚小球下斜面撞纸盒，改变高度或质量比较",
+    "example": "小球从高处下滑时能量怎样变",
+    "answer": "重力势能减小、动能增大",
+    "lesson_id": "L044",
+    "common_errors": [
+      "C2忽略系统与阻力",
+      "C1把能量说成力"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L043《功率：做功有多快》的功率表示单位时间做功。",
+    "to_next": "为L045《杠杆模型与平衡条件》准备力×力臂两侧平衡。",
+    "knowledge_links": [
+      "L043",
+      "L039"
+    ],
+    "review_links": [
+      "L043",
+      "L041",
+      "L037"
+    ],
+    "math_connection": "把图像趋势用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 45,
+    "title": "杠杆模型与平衡条件",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "功机械与能量",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.2.6",
+      "4.2.5"
+    ],
+    "pep_mapping": "八下第12章",
+    "core_question": "为什么用长扳手更省力？",
+    "core_concept": "绕固定点转动的硬棒可抽象为杠杆",
+    "core_model": "力×力臂两侧平衡",
+    "formula": "F1l1=F2l2",
+    "math_prerequisite": [
+      "乘法",
+      "比例",
+      "垂线"
+    ],
+    "experiment_level": "CORE",
+    "visual": "杠杆五要素图",
+    "activity": "改变钩码位置与数量，记录平衡时力和力臂",
+    "example": "阻力20 N、阻力臂0.1 m，动力臂0.5 m",
+    "answer": "动力4 N",
+    "lesson_id": "L045",
+    "common_errors": [
+      "C3力臂画成杆长",
+      "C5比例求解错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L044《动能、势能与机械能转化》的运动和位置可储存机械能。",
+    "to_next": "为L046《机械效率：有用功占多少》准备有用功、额外功与总功的能量账本。",
+    "knowledge_links": [
+      "L044",
+      "L040"
+    ],
+    "review_links": [
+      "L044",
+      "L042",
+      "L038"
+    ],
+    "math_connection": "把乘法、比例、垂线用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 46,
+    "title": "机械效率：有用功占多少",
+    "grade": "八年级",
+    "semester": "下册",
+    "big_idea": "功机械与能量",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.2.3",
+      "3.2.4",
+      "3.5.2"
+    ],
+    "pep_mapping": "八下第12章",
+    "core_question": "使用机械省了力，是否也省了功？",
+    "core_concept": "机械效率表示有用功占总功的比例",
+    "core_model": "有用功、额外功与总功的能量账本",
+    "formula": "η=W有/W总",
+    "math_prerequisite": [
+      "分数",
+      "百分数"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "有用额外总功流图",
+    "activity": "用定滑轮和动滑轮提同一物体，比较有用功、额外功和总功",
+    "example": "有用功80 J、总功100 J，效率",
+    "answer": "80%；效率不可能超过100%",
+    "lesson_id": "L046",
+    "common_errors": [
+      "C7说机械省功",
+      "C5百分数错误"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L045《杠杆模型与平衡条件》的绕固定点转动的硬棒可抽象为杠杆。",
+    "to_next": "为L047《分子热运动与内能》准备宏观温度现象连接微观模型。",
+    "knowledge_links": [
+      "L045",
+      "L041"
+    ],
+    "review_links": [
+      "L045",
+      "L043",
+      "L039"
+    ],
+    "math_connection": "把分数、百分数用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 47,
+    "title": "分子热运动与内能",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "内能与能源",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.1.2",
+      "3.3.1"
+    ],
+    "pep_mapping": "九年第13章",
+    "core_question": "打开香水后，远处为什么也能闻到？",
+    "core_concept": "分子不停做无规则运动；内能是微观能量总和",
+    "core_model": "宏观温度现象连接微观模型",
+    "formula": "—",
+    "math_prerequisite": [
+      "无"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "扩散微粒图",
+    "activity": "冷水与热水各滴一滴色素，比较扩散",
+    "example": "同一物体、状态不变时温度升高，分子运动和内能通常怎样",
+    "answer": "分子无规则运动更剧烈，内能通常增大",
+    "lesson_id": "L047",
+    "common_errors": [
+      "C1分子热运动等同物体移动",
+      "C2内能等同热量"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L046《机械效率：有用功占多少》的机械效率表示有用功占总功的比例。",
+    "to_next": "为L048《改变内能的两条路》准备能量转移与能量转化两类路径。",
+    "knowledge_links": [
+      "L046",
+      "L042"
+    ],
+    "review_links": [
+      "L046",
+      "L044",
+      "L040"
+    ],
+    "math_connection": "本课不要求新的数学工具，重点用观察、分类或画图表达证据。"
+  },
+  {
+    "id": 48,
+    "title": "改变内能的两条路",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "内能与能源",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.1.2",
+      "3.3.1"
+    ],
+    "pep_mapping": "九年第13章",
+    "core_question": "搓手和烤火都能变暖，能量路径相同吗？",
+    "core_concept": "热传递和做功都能改变内能",
+    "core_model": "能量转移与能量转化两类路径",
+    "formula": "—",
+    "math_prerequisite": [
+      "无"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "内能路径图",
+    "activity": "搓手、弯折铁丝、接触温水，给路径分类",
+    "example": "压缩空气使其变热属于哪种",
+    "answer": "做功，机械能转化为内能",
+    "lesson_id": "L048",
+    "common_errors": [
+      "C1热量说成物体含有",
+      "C2两路径混淆"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L047《分子热运动与内能》的分子不停做无规则运动；内能是微观能量总和。",
+    "to_next": "为L049《比热容：相同热量为何升温不同》准备质量、温差、物质共同决定吸热。",
+    "knowledge_links": [
+      "L047",
+      "L043"
+    ],
+    "review_links": [
+      "L047",
+      "L045",
+      "L041"
+    ],
+    "math_connection": "本课不要求新的数学工具，重点用观察、分类或画图表达证据。"
+  },
+  {
+    "id": 49,
+    "title": "比热容：相同热量为何升温不同",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "内能与能源",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.3.2"
+    ],
+    "pep_mapping": "九年第13章",
+    "core_question": "海边昼夜温差为什么比沙漠小？",
+    "core_concept": "比热容表示单位质量升高1℃所需热量",
+    "core_model": "质量、温差、物质共同决定吸热",
+    "formula": "Q=cmΔT",
+    "math_prerequisite": [
+      "乘法",
+      "正负数"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "水沙升温曲线图",
+    "activity": "等质量水和沙接受相同加热，比较升温",
+    "example": "2 kg水升高5℃，c=4.2×10³，吸热",
+    "answer": "4.2×10^4 J",
+    "lesson_id": "L049",
+    "common_errors": [
+      "C5温差用末温",
+      "C6科学记数法错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L048《改变内能的两条路》的热传递和做功都能改变内能。",
+    "to_next": "为L050《燃料热值：同质量燃料放热不同》准备燃料质量与完全燃烧放热的比例模型。",
+    "knowledge_links": [
+      "L048",
+      "L044"
+    ],
+    "review_links": [
+      "L048",
+      "L046",
+      "L042"
+    ],
+    "math_connection": "把乘法、正负数用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 50,
+    "title": "燃料热值：同质量燃料放热不同",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "内能与能源",
+    "importance": "★★",
+    "curriculum_standard": [
+      "3.3.1",
+      "3.3.3"
+    ],
+    "pep_mapping": "九年第14章",
+    "core_question": "同质量木柴和天然气为什么放热不同？",
+    "core_concept": "热值描述单位质量燃料完全燃烧时放出的热量",
+    "core_model": "燃料质量与完全燃烧放热的比例模型",
+    "formula": "Q=mq",
+    "math_prerequisite": [
+      "乘法",
+      "科学记数法"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "燃料能量流图",
+    "activity": "比较资料中同质量不同燃料完全燃烧的放热量并画能量链",
+    "example": "0.1 kg燃料热值3×10^7 J/kg，完全燃烧放热",
+    "answer": "3×10^6 J",
+    "lesson_id": "L050",
+    "common_errors": [
+      "C4漏完全燃烧条件",
+      "C7把热值随质量改变"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L049《比热容：相同热量为何升温不同》的比热容表示单位质量升高1℃所需热量。",
+    "to_next": "为L051《能量守恒、效率与方向》准备输入能量=有效+散失。",
+    "knowledge_links": [
+      "L049",
+      "L045"
+    ],
+    "review_links": [
+      "L049",
+      "L047",
+      "L043"
+    ],
+    "math_connection": "把乘法、科学记数法用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 51,
+    "title": "能量守恒、效率与方向",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "内能与能源",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.5.1",
+      "3.5.2",
+      "3.5.3"
+    ],
+    "pep_mapping": "九年第14章",
+    "core_question": "能量守恒，永动机为什么仍不可能？",
+    "core_concept": "能量总量守恒但转化有方向且品质会分散",
+    "core_model": "输入能量=有效+散失",
+    "formula": "E入=E有+E散",
+    "math_prerequisite": [
+      "加法",
+      "百分数"
+    ],
+    "experiment_level": "NONE",
+    "visual": "能量流桑基简图",
+    "activity": "给手机充电能量流贴标签并找散失",
+    "example": "输入100 J，有用70 J，散失多少",
+    "answer": "30 J；守恒不等于都能再利用",
+    "lesson_id": "L051",
+    "common_errors": [
+      "C1守恒等同不变形式",
+      "C7效率超过100%"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L050《燃料热值：同质量燃料放热不同》的热值描述单位质量燃料完全燃烧时放出的热量。",
+    "to_next": "为L052《闭合电路：电流怎样形成通路》准备电源—导线—用电器—开关闭环。",
+    "knowledge_links": [
+      "L050",
+      "L046"
+    ],
+    "review_links": [
+      "L050",
+      "L048",
+      "L044"
+    ],
+    "math_connection": "把加法、百分数用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 52,
+    "title": "闭合电路：电流怎样形成通路",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电路",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.4.1",
+      "3.4.1"
+    ],
+    "pep_mapping": "九年第15章",
+    "core_question": "灯泡亮起来，电流必须走怎样的路？",
+    "core_concept": "持续电流需要电源和闭合通路",
+    "core_model": "电源—导线—用电器—开关闭环",
+    "formula": "—",
+    "math_prerequisite": [
+      "无"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "最简电路图",
+    "activity": "电池、灯泡、开关试接，先检查短路风险",
+    "example": "开关闭合但灯不亮先查什么",
+    "answer": "通路是否完整、接触是否可靠",
+    "lesson_id": "L052",
+    "common_errors": [
+      "C2把电流消耗掉",
+      "C3电路图元件画错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L051《能量守恒、效率与方向》的能量总量守恒但转化有方向且品质会分散。",
+    "to_next": "为L053《串联和并联：电流有几条路》准备从电流路径识别连接方式。",
+    "knowledge_links": [
+      "L051",
+      "L047"
+    ],
+    "review_links": [
+      "L051",
+      "L049",
+      "L045"
+    ],
+    "math_connection": "本课不要求新的数学工具，重点用观察、分类或画图表达证据。"
+  },
+  {
+    "id": 53,
+    "title": "串联和并联：电流有几条路",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电路",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.4"
+    ],
+    "pep_mapping": "九年第15章",
+    "core_question": "家里一盏灯坏了，其他灯为什么还能亮？",
+    "core_concept": "串联一条路径，并联多条支路",
+    "core_model": "从电流路径识别连接方式",
+    "formula": "—",
+    "math_prerequisite": [
+      "分类"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "串并联路径图",
+    "activity": "用两灯搭串联与并联，断开一灯观察另一灯",
+    "example": "家庭灯为什么并联",
+    "answer": "各支路可独立工作且两端电压相同",
+    "lesson_id": "L053",
+    "common_errors": [
+      "C3按元件摆放形状判断",
+      "C4漏节点"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L052《闭合电路：电流怎样形成通路》的持续电流需要电源和闭合通路。",
+    "to_next": "为L054《电流表：让电流可测量》准备串联、正进负出、量程合适。",
+    "knowledge_links": [
+      "L052",
+      "L048"
+    ],
+    "review_links": [
+      "L052",
+      "L050",
+      "L046"
+    ],
+    "math_connection": "把分类用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 54,
+    "title": "电流表：让电流可测量",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电流电压电阻",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.3",
+      "4.1.7"
+    ],
+    "pep_mapping": "九年第15章",
+    "core_question": "电流表为什么必须串进被测支路？",
+    "core_concept": "电流表测通过某处的电流",
+    "core_model": "串联、正进负出、量程合适",
+    "formula": "—",
+    "math_prerequisite": [
+      "刻度",
+      "小数"
+    ],
+    "experiment_level": "CORE",
+    "visual": "电流表接线图",
+    "activity": "识别量程和分度值，安全接入小灯泡支路",
+    "example": "0～0.6 A量程每小格0.02 A，指17格",
+    "answer": "0.34 A",
+    "lesson_id": "L054",
+    "common_errors": [
+      "C3并联电流表",
+      "C9量程读错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L053《串联和并联：电流有几条路》的串联一条路径，并联多条支路。",
+    "to_next": "为L055《核心实验：串并联电流特点》准备节点电流守恒模型。",
+    "knowledge_links": [
+      "L053",
+      "L049"
+    ],
+    "review_links": [
+      "L053",
+      "L051",
+      "L047"
+    ],
+    "math_connection": "把刻度、小数用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 55,
+    "title": "核心实验：串并联电流特点",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电流电压电阻",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.4",
+      "4.2.11"
+    ],
+    "pep_mapping": "九年第15章",
+    "core_question": "电流经过灯泡后会被“用掉”吗？",
+    "core_concept": "串联各处电流相等，并联干路电流等于支路和",
+    "core_model": "节点电流守恒模型",
+    "formula": "I=I1=I2；I干=I1+I2",
+    "math_prerequisite": [
+      "加法",
+      "表格"
+    ],
+    "experiment_level": "CORE",
+    "visual": "节点电流箭头图",
+    "activity": "换测多个位置和不同灯泡，记录三组数据",
+    "example": "并联两支路0.2 A与0.3 A，干路",
+    "answer": "0.5 A",
+    "lesson_id": "L055",
+    "common_errors": [
+      "C4只测一组",
+      "C1把电流当消耗品"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L054《电流表：让电流可测量》的电流表测通过某处的电流。",
+    "to_next": "为L056《电压表：测量“推动差”》准备电压表并联在被测元件两端。",
+    "knowledge_links": [
+      "L054",
+      "L050"
+    ],
+    "review_links": [
+      "L054",
+      "L052",
+      "L048"
+    ],
+    "math_connection": "把加法、表格用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 56,
+    "title": "电压表：测量“推动差”",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电流电压电阻",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.2",
+      "3.4.3",
+      "4.1.8"
+    ],
+    "pep_mapping": "九年第16章",
+    "core_question": "电池为什么能推动电荷定向移动？",
+    "core_concept": "电压是形成电流的原因之一",
+    "core_model": "电压表并联在被测元件两端",
+    "formula": "—",
+    "math_prerequisite": [
+      "刻度",
+      "小数"
+    ],
+    "experiment_level": "CORE",
+    "visual": "电压表接线图",
+    "activity": "辨量程、分度值，把电压表跨接在灯泡两端",
+    "example": "0～3 V量程每小格0.1 V，指23格",
+    "answer": "2.3 V",
+    "lesson_id": "L056",
+    "common_errors": [
+      "C3把电压表串联",
+      "C9正负接线错"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L055《核心实验：串并联电流特点》的串联各处电流相等，并联干路电流等于支路和。",
+    "to_next": "为L057《核心实验：串并联电压特点》准备回路电压分配模型。",
+    "knowledge_links": [
+      "L055",
+      "L051"
+    ],
+    "review_links": [
+      "L055",
+      "L053",
+      "L049"
+    ],
+    "math_connection": "把刻度、小数用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 57,
+    "title": "核心实验：串并联电压特点",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电流电压电阻",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.4",
+      "4.2.11"
+    ],
+    "pep_mapping": "九年第16章",
+    "core_question": "两只串联灯怎样“分”电压？",
+    "core_concept": "串联总电压等于各部分之和，并联各支路电压相等",
+    "core_model": "回路电压分配模型",
+    "formula": "U总=U1+U2；U=U1=U2",
+    "math_prerequisite": [
+      "加法",
+      "表格"
+    ],
+    "experiment_level": "CORE",
+    "visual": "串并联电压图",
+    "activity": "分别测电源、各灯两端电压并换灯复测",
+    "example": "串联两灯1.2 V、1.8 V，电源电压",
+    "answer": "3.0 V",
+    "lesson_id": "L057",
+    "common_errors": [
+      "C3测量端点错",
+      "C4把电流规律套给电压"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L056《电压表：测量“推动差”》的电压是形成电流的原因之一。",
+    "to_next": "为L058《电阻与滑动变阻器》准备同温下材料、长度、横截面积影响电阻；变阻器靠有效长度调节。",
+    "knowledge_links": [
+      "L056",
+      "L052"
+    ],
+    "review_links": [
+      "L056",
+      "L054",
+      "L050"
+    ],
+    "math_connection": "把加法、表格用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 58,
+    "title": "电阻与滑动变阻器",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电流电压电阻",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.2"
+    ],
+    "pep_mapping": "九年第16章",
+    "core_question": "同一电源接不同灯丝，电流为什么不同？",
+    "core_concept": "电阻表示导体对电流的阻碍作用",
+    "core_model": "同温下材料、长度、横截面积影响电阻；变阻器靠有效长度调节",
+    "formula": "—",
+    "math_prerequisite": [
+      "比例"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "变阻器有效段图",
+    "activity": "铅笔芯长短对电流影响演示，再判断变阻器接入段",
+    "example": "滑片远离已接下端时电阻怎样",
+    "answer": "有效长度变长，接入电阻增大",
+    "lesson_id": "L058",
+    "common_errors": [
+      "C3同时接上面两个端子",
+      "C4不看有效段"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L057《核心实验：串并联电压特点》的串联总电压等于各部分之和，并联各支路电压相等。",
+    "to_next": "为L059《核心实验：电流与电压、电阻关系》准备控制变量建立I-U-R关系。",
+    "knowledge_links": [
+      "L057",
+      "L053"
+    ],
+    "review_links": [
+      "L057",
+      "L055",
+      "L051"
+    ],
+    "math_connection": "把比例用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 59,
+    "title": "核心实验：电流与电压、电阻关系",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "欧姆定律",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.2",
+      "4.2.12"
+    ],
+    "pep_mapping": "九年第17章",
+    "core_question": "电流会怎样随电压和电阻改变？",
+    "core_concept": "同一导体温度近似不变时电流与电压成正比；电压一定时与电阻成反比",
+    "core_model": "控制变量建立I-U-R关系",
+    "formula": "I=U/R",
+    "math_prerequisite": [
+      "比例",
+      "图像"
+    ],
+    "experiment_level": "CORE",
+    "visual": "I-U图像与电路图",
+    "activity": "分别保持R或U不变，调变阻器测多组数据",
+    "example": "6 V加在3 Ω电阻上，电流",
+    "answer": "2 A",
+    "lesson_id": "L059",
+    "common_errors": [
+      "C4控制量未保持",
+      "C7倒写关系"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L058《电阻与滑动变阻器》的电阻表示导体对电流的阻碍作用。",
+    "to_next": "为L060《欧姆定律建模应用》准备圈定研究对象再配U、I、R。",
+    "knowledge_links": [
+      "L058",
+      "L054"
+    ],
+    "review_links": [
+      "L058",
+      "L056",
+      "L052"
+    ],
+    "math_connection": "把比例、图像用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 60,
+    "title": "欧姆定律建模应用",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "欧姆定律",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.2"
+    ],
+    "pep_mapping": "九年第17章",
+    "core_question": "电路题怎样先找对象再列式？",
+    "core_concept": "欧姆定律只对同一段电路同一状态配对",
+    "core_model": "圈定研究对象再配U、I、R",
+    "formula": "U=IR",
+    "math_prerequisite": [
+      "方程",
+      "单位换算"
+    ],
+    "experiment_level": "NONE",
+    "visual": "局部电路框图",
+    "activity": "给电路某电阻框边界，标其电压电流再计算",
+    "example": "0.5 A通过12 Ω电阻，电压",
+    "answer": "6 V",
+    "lesson_id": "L060",
+    "common_errors": [
+      "C2对象边界错",
+      "C7跨对象拼数据"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L059《核心实验：电流与电压、电阻关系》的同一导体温度近似不变时电流与电压成正比；电压一定时与电阻成反比。",
+    "to_next": "为L061《核心实验：伏安法测电阻》准备电流表串联、电压表并联、变阻器保护。",
+    "knowledge_links": [
+      "L059",
+      "L055"
+    ],
+    "review_links": [
+      "L059",
+      "L057",
+      "L053"
+    ],
+    "math_connection": "把方程、单位换算用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 61,
+    "title": "核心实验：伏安法测电阻",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "欧姆定律",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "4.1.9"
+    ],
+    "pep_mapping": "九年第17章",
+    "core_question": "未知电阻怎样用两个表测出来？",
+    "core_concept": "由同一状态的U和I间接求R",
+    "core_model": "电流表串联、电压表并联、变阻器保护",
+    "formula": "R=U/I",
+    "math_prerequisite": [
+      "除法",
+      "表格"
+    ],
+    "experiment_level": "CORE",
+    "visual": "伏安法电路图",
+    "activity": "先最大电阻保护，再测三组U、I并分析",
+    "example": "2.4 V、0.3 A，电阻",
+    "answer": "8 Ω",
+    "lesson_id": "L061",
+    "common_errors": [
+      "C4电表数据非同一时刻",
+      "C9闭合前未调最大"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L060《欧姆定律建模应用》的欧姆定律只对同一段电路同一状态配对。",
+    "to_next": "为L062《电功与电能表》准备电压、电流和时间共同决定电功。",
+    "knowledge_links": [
+      "L060",
+      "L056"
+    ],
+    "review_links": [
+      "L060",
+      "L058",
+      "L054"
+    ],
+    "math_connection": "把除法、表格用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 62,
+    "title": "电功与电能表",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电功与电功率",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.5"
+    ],
+    "pep_mapping": "九年第18章",
+    "core_question": "电器工作一段时间，转化了多少电能？",
+    "core_concept": "电功表示电能转化的多少",
+    "core_model": "电压、电流和时间共同决定电功",
+    "formula": "W=UIt",
+    "math_prerequisite": [
+      "乘法",
+      "时间换算"
+    ],
+    "experiment_level": "NONE",
+    "visual": "电能流与电能表图",
+    "activity": "读取家用电能表前后示数，计算一段时间的用电量",
+    "example": "220 V、2 A电器工作10 s，电功",
+    "answer": "4400 J",
+    "lesson_id": "L062",
+    "common_errors": [
+      "C1电功与功率混淆",
+      "C6小时秒混用"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L061《核心实验：伏安法测电阻》的由同一状态的U和I间接求R。",
+    "to_next": "为L063《电功率与小灯泡测量》准备同一工作状态测U和I后相乘。",
+    "knowledge_links": [
+      "L061",
+      "L057"
+    ],
+    "review_links": [
+      "L061",
+      "L059",
+      "L055"
+    ],
+    "math_connection": "把乘法、时间换算用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 63,
+    "title": "电功率与小灯泡测量",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电功与电功率",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.5"
+    ],
+    "pep_mapping": "九年第18章",
+    "core_question": "小灯泡在不同电压下亮度为何不同？",
+    "core_concept": "电功率表示电能转化的快慢",
+    "core_model": "同一工作状态测U和I后相乘",
+    "formula": "P=UI",
+    "math_prerequisite": [
+      "乘法",
+      "表格"
+    ],
+    "experiment_level": "CORE",
+    "visual": "测功率电路图",
+    "activity": "调变阻器使灯泡在低于、等于、略高额定电压下工作",
+    "example": "额定2.5 V时0.3 A，额定功率",
+    "answer": "0.75 W",
+    "lesson_id": "L063",
+    "common_errors": [
+      "C4把实际与额定混用",
+      "C9超额定过多"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L062《电功与电能表》的电功表示电能转化的多少。",
+    "to_next": "为L064《焦耳定律：电流为什么发热》准备控制变量比较电阻丝产热。",
+    "knowledge_links": [
+      "L062",
+      "L058"
+    ],
+    "review_links": [
+      "L062",
+      "L060",
+      "L056"
+    ],
+    "math_connection": "把乘法、表格用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 64,
+    "title": "焦耳定律：电流为什么发热",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电功与电功率",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.6"
+    ],
+    "pep_mapping": "九年第18章",
+    "core_question": "电炉丝很热，连接导线为什么不该同样热？",
+    "core_concept": "电热与电流平方、电阻、时间有关",
+    "core_model": "控制变量比较电阻丝产热",
+    "formula": "Q=I²Rt",
+    "math_prerequisite": [
+      "平方",
+      "乘法"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "串联电热对比图",
+    "activity": "串联两不同电阻丝，用相同电流比较温升",
+    "example": "电流变2倍，其他不变，电热变几倍",
+    "answer": "4倍",
+    "lesson_id": "L064",
+    "common_errors": [
+      "C5漏平方",
+      "C4串并联时没辨相同量"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L063《电功率与小灯泡测量》的电功率表示电能转化的快慢。",
+    "to_next": "为L065《家庭电路与安全用电》准备火线—用电器—零线与接地保护。",
+    "knowledge_links": [
+      "L063",
+      "L059"
+    ],
+    "review_links": [
+      "L063",
+      "L061",
+      "L057"
+    ],
+    "math_connection": "把平方、乘法用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 65,
+    "title": "家庭电路与安全用电",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电功与电功率",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "3.4.7"
+    ],
+    "pep_mapping": "九年第19章",
+    "core_question": "保险装置为什么装在火线上？",
+    "core_concept": "家庭电路并联，保护装置切断危险通路",
+    "core_model": "火线—用电器—零线与接地保护",
+    "formula": "—",
+    "math_prerequisite": [
+      "估算"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "家庭电路安全图",
+    "activity": "识别三孔插座、总开关和漏电保护器，不接触市电",
+    "example": "多个大功率电器同插座有何风险",
+    "answer": "总电流过大导致导线过热和火灾风险",
+    "lesson_id": "L065",
+    "common_errors": [
+      "C3开关接零线",
+      "C8湿手操作"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L064《焦耳定律：电流为什么发热》的电热与电流平方、电阻、时间有关。",
+    "to_next": "为L066《磁场：看不见但能用作用检验》准备小磁针N极受力方向定义场方向。",
+    "knowledge_links": [
+      "L064",
+      "L060"
+    ],
+    "review_links": [
+      "L064",
+      "L062",
+      "L058"
+    ],
+    "math_connection": "把估算用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 66,
+    "title": "磁场：看不见但能用作用检验",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电与磁",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.4.2"
+    ],
+    "pep_mapping": "九年第20章",
+    "core_question": "磁体没有接触，为什么能推动小磁针？",
+    "core_concept": "磁场对放入其中的磁体有力作用",
+    "core_model": "小磁针N极受力方向定义场方向",
+    "formula": "—",
+    "math_prerequisite": [
+      "方向",
+      "空间方向"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "条形磁体场线图",
+    "activity": "磁体周围放多枚小磁针并标N极方向",
+    "example": "条形磁体外部磁感线方向",
+    "answer": "从N极到S极",
+    "lesson_id": "L066",
+    "common_errors": [
+      "C1把磁感线当真实线",
+      "C3方向画反"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L065《家庭电路与安全用电》的家庭电路并联，保护装置切断危险通路。",
+    "to_next": "为L067《核心实验：电流的磁场与通电螺线管》准备电流方向决定磁场方向。",
+    "knowledge_links": [
+      "L065",
+      "L061"
+    ],
+    "review_links": [
+      "L065",
+      "L063",
+      "L059"
+    ],
+    "math_connection": "把方向、空间方向用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 67,
+    "title": "核心实验：电流的磁场与通电螺线管",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电与磁",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.4.3",
+      "4.2.9"
+    ],
+    "pep_mapping": "九年第20章",
+    "core_question": "改变电流方向，螺线管磁极会变吗？",
+    "core_concept": "电流周围有磁场，螺线管外部像条形磁体",
+    "core_model": "电流方向决定磁场方向",
+    "formula": "—",
+    "math_prerequisite": [
+      "空间方向",
+      "方向"
+    ],
+    "experiment_level": "CORE",
+    "visual": "螺线管小磁针图",
+    "activity": "改变电流方向，记录两端小磁针N极指向",
+    "example": "电流反向后磁极怎样",
+    "answer": "N、S极对调",
+    "lesson_id": "L067",
+    "common_errors": [
+      "C3电流方向与场方向混淆",
+      "C4只改电池位置不记录"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L066《磁场：看不见但能用作用检验》的磁场对放入其中的磁体有力作用。",
+    "to_next": "为L068《磁场对电流的作用与电动机》准备电能→机械能；电流或磁场反向则受力反向。",
+    "knowledge_links": [
+      "L066",
+      "L062"
+    ],
+    "review_links": [
+      "L066",
+      "L064",
+      "L060"
+    ],
+    "math_connection": "把空间方向、方向用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 68,
+    "title": "磁场对电流的作用与电动机",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电与磁",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.4.4"
+    ],
+    "pep_mapping": "九年第20章",
+    "core_question": "通电线圈为什么能转起来？",
+    "core_concept": "通电导线在磁场中受力",
+    "core_model": "电能→机械能；电流或磁场反向则受力反向",
+    "formula": "—",
+    "math_prerequisite": [
+      "方向"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "电动机受力图",
+    "activity": "让通电线框在磁场中运动并分别反向电流、磁场",
+    "example": "电动机主要把什么能转为什么能",
+    "answer": "电能转化为机械能",
+    "lesson_id": "L068",
+    "common_errors": [
+      "C2与发电机混淆",
+      "C3只反一项却判方向不变"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L067《核心实验：电流的磁场与通电螺线管》的电流周围有磁场，螺线管外部像条形磁体。",
+    "to_next": "为L069《核心实验：电磁感应与发电机》准备机械运动—磁场变化—电能。",
+    "knowledge_links": [
+      "L067",
+      "L063"
+    ],
+    "review_links": [
+      "L067",
+      "L065",
+      "L061"
+    ],
+    "math_connection": "把方向用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 69,
+    "title": "核心实验：电磁感应与发电机",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "电与磁",
+    "importance": "★★★",
+    "curriculum_standard": [
+      "2.4.5",
+      "4.2.10"
+    ],
+    "pep_mapping": "九年第20章",
+    "core_question": "没有电池，怎样让导线中出现电流？",
+    "core_concept": "闭合电路一部分导体切割磁感线可产生感应电流",
+    "core_model": "机械运动—磁场变化—电能",
+    "formula": "—",
+    "math_prerequisite": [
+      "方向"
+    ],
+    "experiment_level": "CORE",
+    "visual": "切割磁感线图",
+    "activity": "改变导体运动方向、磁场方向与是否闭合，观察灵敏电流计",
+    "example": "导体静止在磁场中是否有感应电流",
+    "answer": "没有；还需闭合且切割磁感线",
+    "lesson_id": "L069",
+    "common_errors": [
+      "C4漏闭合条件",
+      "C2与电动机能量链混淆"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L068《磁场对电流的作用与电动机》的通电导线在磁场中受力。",
+    "to_next": "为L070《信息、能源与可持续未来》准备需求—证据—约束—方案—评价。",
+    "knowledge_links": [
+      "L068",
+      "L064"
+    ],
+    "review_links": [
+      "L068",
+      "L066",
+      "L062"
+    ],
+    "math_connection": "把方向用于真实测量、图示或数量关系。"
+  },
+  {
+    "id": 70,
+    "title": "信息、能源与可持续未来",
+    "grade": "九年级",
+    "semester": "全一册",
+    "big_idea": "能源与现代技术",
+    "importance": "★★",
+    "curriculum_standard": [
+      "2.4.6",
+      "3.6.1",
+      "3.6.2",
+      "3.6.3",
+      "5.1.1",
+      "5.1.2",
+      "5.1.3",
+      "5.2.1",
+      "5.2.2",
+      "5.2.3",
+      "5.3.1",
+      "5.3.2",
+      "5.3.3"
+    ],
+    "pep_mapping": "九年第21-22章",
+    "core_question": "技术选择怎样同时看物理可行性与社会影响？",
+    "core_concept": "电磁波传信息，能源选择需看来源、效率、安全和环境",
+    "core_model": "需求—证据—约束—方案—评价",
+    "formula": "v=λf",
+    "math_prerequisite": [
+      "科学记数法",
+      "比例",
+      "大小比较"
+    ],
+    "experiment_level": "MICRO",
+    "visual": "方案评价矩阵",
+    "activity": "为“节能小屋”在太阳能、风能和市电间做证据化选择",
+    "example": "波速3×10^8 m/s、频率10^8 Hz，波长",
+    "answer": "3 m；方案还需评价稳定性与环境影响",
+    "lesson_id": "L070",
+    "common_errors": [
+      "C4只看单一指标",
+      "C1可再生等同无影响"
+    ],
+    "estimated_teaching_minutes": 20,
+    "estimated_practice_minutes": 10,
+    "difficulty": "基础—典型",
+    "visual_required": true,
+    "from_previous": "承接L069《核心实验：电磁感应与发电机》的闭合电路一部分导体切割磁感线可产生感应电流。",
+    "to_next": "课程终点：用证据评价技术与社会选择。",
+    "knowledge_links": [
+      "L069",
+      "L065"
+    ],
+    "review_links": [
+      "L069",
+      "L067",
+      "L063"
+    ],
+    "math_connection": "把科学记数法、比例、大小比较用于真实测量、图示或数量关系。"
+  }
+]

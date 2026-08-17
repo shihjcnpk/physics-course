@@ -1,0 +1,931 @@
+{
+  "status": "VERIFIED_OFFICIAL_2026-08-17",
+  "default_start": {
+    "volume": "八年级上册",
+    "chapter_number": 1,
+    "section_number": 1
+  },
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "volume": "八年级上册",
+      "title": "机械运动",
+      "official_heading": "第一章 机械运动",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "长度和时间的测量",
+          "lesson_ids": [
+            "L001"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "运动的描述",
+          "lesson_ids": [
+            "L002"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "运动的快慢",
+          "lesson_ids": [
+            "L003",
+            "L004"
+          ],
+          "mode": "拆成短课"
+        },
+        {
+          "section_number": 4,
+          "title": "速度的测量",
+          "lesson_ids": [
+            "L005"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 2,
+      "volume": "八年级上册",
+      "title": "声现象",
+      "official_heading": "第二章 声现象",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "声音的产生与传播",
+          "lesson_ids": [
+            "L006"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "声音的特性",
+          "lesson_ids": [
+            "L007"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "声的利用",
+          "lesson_ids": [
+            "L008"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "噪声的危害和控制",
+          "lesson_ids": [
+            "L008"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 5,
+          "title": "跨学科实践：制作隔音房间模型",
+          "lesson_ids": [
+            "L008"
+          ],
+          "mode": "课后融合"
+        }
+      ]
+    },
+    {
+      "chapter_number": 3,
+      "volume": "八年级上册",
+      "title": "物态变化",
+      "official_heading": "第三章 物态变化",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "温度",
+          "lesson_ids": [
+            "L009"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "熔化和凝固",
+          "lesson_ids": [
+            "L010",
+            "L011"
+          ],
+          "mode": "拆成短课"
+        },
+        {
+          "section_number": 3,
+          "title": "汽化和液化",
+          "lesson_ids": [
+            "L012",
+            "L013"
+          ],
+          "mode": "拆成短课"
+        },
+        {
+          "section_number": 4,
+          "title": "升华和凝华",
+          "lesson_ids": [
+            "L014"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 5,
+          "title": "跨学科实践：探索厨房中的物态变化问题",
+          "lesson_ids": [
+            "L014"
+          ],
+          "mode": "课后融合"
+        }
+      ]
+    },
+    {
+      "chapter_number": 4,
+      "volume": "八年级上册",
+      "title": "光现象",
+      "official_heading": "第四章 光现象",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "光的直线传播",
+          "lesson_ids": [
+            "L015"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "光的反射",
+          "lesson_ids": [
+            "L016"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "平面镜成像",
+          "lesson_ids": [
+            "L017"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "光的折射",
+          "lesson_ids": [
+            "L018"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 5,
+          "title": "光的色散",
+          "lesson_ids": [
+            "L015"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 5,
+      "volume": "八年级上册",
+      "title": "透镜及其应用",
+      "official_heading": "第五章 透镜及其应用",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "透镜",
+          "lesson_ids": [
+            "L019"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "生活中的透镜",
+          "lesson_ids": [
+            "L021"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "凸透镜成像的规律",
+          "lesson_ids": [
+            "L020"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "眼睛和眼镜",
+          "lesson_ids": [
+            "L021"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 5,
+          "title": "跨学科实践：制作望远镜",
+          "lesson_ids": [
+            "L021"
+          ],
+          "mode": "课后融合"
+        }
+      ]
+    },
+    {
+      "chapter_number": 6,
+      "volume": "八年级上册",
+      "title": "质量与密度",
+      "official_heading": "第六章 质量与密度",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "质量",
+          "lesson_ids": [
+            "L022"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "密度",
+          "lesson_ids": [
+            "L023"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "测量液体和固体的密度",
+          "lesson_ids": [
+            "L024"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "密度的应用",
+          "lesson_ids": [
+            "L023",
+            "L025"
+          ],
+          "mode": "拆成短课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 7,
+      "volume": "八年级下册",
+      "title": "力",
+      "official_heading": "第七章 力",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "力",
+          "lesson_ids": [
+            "L026",
+            "L027"
+          ],
+          "mode": "拆成短课"
+        },
+        {
+          "section_number": 2,
+          "title": "弹力",
+          "lesson_ids": [
+            "L029"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "重力",
+          "lesson_ids": [
+            "L028"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 8,
+      "volume": "八年级下册",
+      "title": "运动和力",
+      "official_heading": "第八章 运动和力",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "牛顿第一定律",
+          "lesson_ids": [
+            "L031",
+            "L032"
+          ],
+          "mode": "拆成短课"
+        },
+        {
+          "section_number": 2,
+          "title": "二力平衡",
+          "lesson_ids": [
+            "L033"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "摩擦力",
+          "lesson_ids": [
+            "L030"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "同一直线上二力的合成",
+          "lesson_ids": [
+            "L033"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 9,
+      "volume": "八年级下册",
+      "title": "压强",
+      "official_heading": "第九章 压强",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "压强",
+          "lesson_ids": [
+            "L034"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "液体的压强",
+          "lesson_ids": [
+            "L035"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "大气压强",
+          "lesson_ids": [
+            "L036"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "跨学科实践：制作简易活塞式抽水机",
+          "lesson_ids": [
+            "L036"
+          ],
+          "mode": "课后融合"
+        },
+        {
+          "section_number": 5,
+          "title": "流体压强与流速的关系",
+          "lesson_ids": [
+            "L037"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 10,
+      "volume": "八年级下册",
+      "title": "浮力",
+      "official_heading": "第十章 浮力",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "浮力",
+          "lesson_ids": [
+            "L038",
+            "L039"
+          ],
+          "mode": "拆成短课"
+        },
+        {
+          "section_number": 2,
+          "title": "阿基米德原理",
+          "lesson_ids": [
+            "L040"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "物体的浮沉条件及应用",
+          "lesson_ids": [
+            "L041"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "跨学科实践：制作微型密度计",
+          "lesson_ids": [
+            "L041"
+          ],
+          "mode": "课后融合"
+        }
+      ]
+    },
+    {
+      "chapter_number": 11,
+      "volume": "八年级下册",
+      "title": "功和机械能",
+      "official_heading": "第十一章 功和机械能",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "功",
+          "lesson_ids": [
+            "L042"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "功率",
+          "lesson_ids": [
+            "L043"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "动能和势能",
+          "lesson_ids": [
+            "L044"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "机械能及其转化",
+          "lesson_ids": [
+            "L044"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 12,
+      "volume": "八年级下册",
+      "title": "简单机械",
+      "official_heading": "第十二章 简单机械",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "杠杆",
+          "lesson_ids": [
+            "L045"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "跨学科实践：制作简易杆秤",
+          "lesson_ids": [
+            "L045"
+          ],
+          "mode": "课后融合"
+        },
+        {
+          "section_number": 3,
+          "title": "滑轮",
+          "lesson_ids": [
+            "L046"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "机械效率",
+          "lesson_ids": [
+            "L046"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 13,
+      "volume": "九年级全一册",
+      "title": "内能",
+      "official_heading": "第十三章 内能",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "热量　比热容",
+          "lesson_ids": [
+            "L049"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "分子动理论的初步知识",
+          "lesson_ids": [
+            "L047"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "内能",
+          "lesson_ids": [
+            "L047",
+            "L048"
+          ],
+          "mode": "拆成短课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 14,
+      "volume": "九年级全一册",
+      "title": "内能的利用",
+      "official_heading": "第十四章 内能的利用",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "能量的转化与守恒",
+          "lesson_ids": [
+            "L051"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "热机",
+          "lesson_ids": [
+            "L050"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "热机的效率",
+          "lesson_ids": [
+            "L050",
+            "L051"
+          ],
+          "mode": "拆成短课"
+        },
+        {
+          "section_number": 4,
+          "title": "跨学科实践：制作简易热机模型",
+          "lesson_ids": [
+            "L050"
+          ],
+          "mode": "课后融合"
+        }
+      ]
+    },
+    {
+      "chapter_number": 15,
+      "volume": "九年级全一册",
+      "title": "电流和电路",
+      "official_heading": "第十五章 电流和电路",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "两种电荷",
+          "lesson_ids": [
+            "L052"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "电流和电路",
+          "lesson_ids": [
+            "L052"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "串联电路和并联电路",
+          "lesson_ids": [
+            "L053"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "电流的测量",
+          "lesson_ids": [
+            "L054"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 5,
+          "title": "串、并联电路中电流的规律",
+          "lesson_ids": [
+            "L055"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 16,
+      "volume": "九年级全一册",
+      "title": "电压 电阻",
+      "official_heading": "第十六章 电压 电阻",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "电压",
+          "lesson_ids": [
+            "L056"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "串、并联电路中电压的规律",
+          "lesson_ids": [
+            "L057"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "电阻",
+          "lesson_ids": [
+            "L058"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "变阻器",
+          "lesson_ids": [
+            "L058"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 5,
+          "title": "跨学科实践：制作简易调光台灯",
+          "lesson_ids": [
+            "L058"
+          ],
+          "mode": "课后融合"
+        }
+      ]
+    },
+    {
+      "chapter_number": 17,
+      "volume": "九年级全一册",
+      "title": "欧姆定律",
+      "official_heading": "第十七章 欧姆定律",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "电流与电压、电阻的关系",
+          "lesson_ids": [
+            "L059"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "欧姆定律",
+          "lesson_ids": [
+            "L060"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "电阻的测量",
+          "lesson_ids": [
+            "L061"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "欧姆定律在串、并联电路中的应用",
+          "lesson_ids": [
+            "L060"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 18,
+      "volume": "九年级全一册",
+      "title": "电功率",
+      "official_heading": "第十八章 电功率",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "电能　电功",
+          "lesson_ids": [
+            "L062"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "电功率",
+          "lesson_ids": [
+            "L063"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "跨学科实践：为家庭节约用电提建议",
+          "lesson_ids": [
+            "L064"
+          ],
+          "mode": "课后融合"
+        },
+        {
+          "section_number": 4,
+          "title": "焦耳定律",
+          "lesson_ids": [
+            "L064"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 19,
+      "volume": "九年级全一册",
+      "title": "生活用电",
+      "official_heading": "第十九章 生活用电",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "安全用电",
+          "lesson_ids": [
+            "L065"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "家庭电路的基本组成",
+          "lesson_ids": [
+            "L065"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "跨学科实践：为家庭电路做设计",
+          "lesson_ids": [
+            "L065"
+          ],
+          "mode": "课后融合"
+        }
+      ]
+    },
+    {
+      "chapter_number": 20,
+      "volume": "九年级全一册",
+      "title": "电与磁",
+      "official_heading": "第二十章 电与磁",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "磁现象　磁场",
+          "lesson_ids": [
+            "L066"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "电生磁",
+          "lesson_ids": [
+            "L067"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "电磁铁　电磁继电器",
+          "lesson_ids": [
+            "L067"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 4,
+          "title": "电动机",
+          "lesson_ids": [
+            "L068"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 5,
+          "title": "跨学科实践：制作简易直流电动机",
+          "lesson_ids": [
+            "L068"
+          ],
+          "mode": "课后融合"
+        },
+        {
+          "section_number": 6,
+          "title": "磁生电",
+          "lesson_ids": [
+            "L069"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 21,
+      "volume": "九年级全一册",
+      "title": "电磁波及其应用",
+      "official_heading": "第二十一章 电磁波及其应用",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "电磁波的海洋",
+          "lesson_ids": [
+            "L070"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "广播、电视和移动通信",
+          "lesson_ids": [
+            "L070"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "卫星通信和光纤通信",
+          "lesson_ids": [
+            "L070"
+          ],
+          "mode": "核心课/整合课"
+        }
+      ]
+    },
+    {
+      "chapter_number": 22,
+      "volume": "九年级全一册",
+      "title": "能源与可持续发展",
+      "official_heading": "第二十二章 能源与可持续发展",
+      "sections": [
+        {
+          "section_number": 1,
+          "title": "能源利用的现状和面临的挑战",
+          "lesson_ids": [
+            "L070"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 2,
+          "title": "新能源的发展",
+          "lesson_ids": [
+            "L070"
+          ],
+          "mode": "核心课/整合课"
+        },
+        {
+          "section_number": 3,
+          "title": "跨学科实践：为节约能源设计方案",
+          "lesson_ids": [
+            "L070"
+          ],
+          "mode": "课后融合"
+        }
+      ]
+    }
+  ]
+}
