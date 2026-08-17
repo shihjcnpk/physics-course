@@ -62,6 +62,7 @@ const ICONS: Record<string, string[]> = {
   'mass-invariance': ['🟠', '⚖️', '🦆'],
   'density-cubes': ['🧊', '⚖️', '🧱'],
   'density-measurement': ['⚖️', '🧪', 'ρ'],
+  'liquid-density': ['⚖️', '➖', '🧪'],
   'scale-chain': ['🔎', '🧬', '🛠️'],
 }
 
@@ -227,6 +228,21 @@ function ModelDiagram({ kind, phase }: { kind: string; phase: number }) {
         <path d="M360 60 L510 60 L495 230 L375 230 Z" className="model-cylinder" /><rect x="378" y="145" width="114" height="80" className="model-water-fill" /><circle cx="435" cy="174" r="30" className={active(1)} /><text x="365" y="265">V = V₂ − V₁</text>
         <text x="550" y="155" className={active(2)}>ρ = m / V</text>
       </>}
+    </svg>
+  )
+
+  if (kind === 'liquid-density') return (
+    <svg viewBox="0 0 720 300" role="img" aria-label="液体密度测量流程图">
+      <rect x="35" y="75" width="155" height="125" rx="14" className="model-balance" />
+      <text x="62" y="125">空杯 m容</text><text x="72" y="165">40 g</text>
+      <text x="205" y="145" className={active(1)}>＋液体</text>
+      <rect x="290" y="75" width="155" height="125" rx="14" className="model-balance" />
+      <text x="307" y="125">总质量 m总</text><text x="330" y="165">94 g</text>
+      <text x="465" y="128" className={active(1)}>相减</text><text x="455" y="162">m液=54 g</text>
+      <path d="M585 55 L675 55 L665 220 L595 220 Z" className="model-cylinder" />
+      <rect x="598" y="130" width="64" height="86" className="model-water-fill" />
+      <text x="595" y="255">V=60 cm³</text>
+      <text x="245" y="270" className={active(2)}>ρ = (m总 − m容) / V = 0.90 g/cm³</text>
     </svg>
   )
 

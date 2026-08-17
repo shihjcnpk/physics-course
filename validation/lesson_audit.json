@@ -1,0 +1,714 @@
+{
+  "summary": {
+    "lesson_count": 70,
+    "passed": 70,
+    "failed": 0,
+    "visual_status": {
+      "BUILT_AND_CHECKED": 25,
+      "REGISTERED_ASSET_PENDING": 45
+    },
+    "systemic_fixes": 13
+  },
+  "lessons": [
+    {
+      "lesson_id": "L001",
+      "title": "长度和时间：先学会可靠测量",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "CORE",
+      "formula": "—",
+      "note": "复核“选量程、分度值、估读并记录”及例题“尺上12.30 cm表示精确到毫米并估读一位”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L002",
+      "title": "运动和静止：先选参照物",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“相对参照物比较位置”及例题“坐在行驶列车中的人相对座椅静止、相对站台运动”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L003",
+      "title": "速度：每1秒走多远",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "NONE",
+      "formula": "v=s/t",
+      "note": "复核“单位时间通过的路程”及例题“60 m用12 s，速度是多少”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L004",
+      "title": "平均速度：一段路整体有多快",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "NONE",
+      "formula": "v平均=s总/t总",
+      "note": "复核“总路程除以总时间”及例题“前10 m用2 s、后10 m用3 s，整段平均速度”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L005",
+      "title": "核心实验：测量物体运动速度",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "CORE",
+      "formula": "v=s/t",
+      "note": "复核“测距、计时、配对、计算”及例题“0.8 m用1.6 s，速度是多少”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L006",
+      "title": "声音从哪里来、怎样传过去",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“声源振动→介质传递→耳接收”及例题“太空舱外爆炸能否直接听见”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L007",
+      "title": "音调、响度和音色别混淆",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“频率管高低、振幅管强弱、音色辨声源”及例题“用力拨同一根弦主要改变什么”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L008",
+      "title": "声音怎样传递作用、噪声怎样控制",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "统一为声源—传播—接收链，利用与降噪共用同一模型。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L009",
+      "title": "温度与温度计",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "CORE",
+      "formula": "—",
+      "note": "复核“测温物质随温度规律变化”及例题“温度计示数在0下4格、每格1℃”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L010",
+      "title": "三态与物态变化地图",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“三态之间六种变化方向”及例题“冰变水属于什么变化”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L011",
+      "title": "熔化和凝固：温度怎样变",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“晶体熔化时吸热、温度保持在熔点”及例题“加热晶体的曲线出现温度平台，同时仍有固液两态，说明什么”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L012",
+      "title": "核心实验：水沸腾前后温度变化",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "CORE",
+      "formula": "—",
+      "note": "复核“持续吸热但沸腾时温度近似不变”及例题“水沸腾后读数保持98℃说明什么”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L013",
+      "title": "汽化与液化：水去哪了又怎么回来",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“液体↔气体的能量过程”及例题“夏天冰饮料杯外水珠来自哪里”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L014",
+      "title": "升华、凝华与水循环",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“固↔气与水循环状态链”及例题“窗上冰花通常形成在哪一侧”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L015",
+      "title": "光沿直线传播",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“用光线表示传播路径”及例题“影子怎样形成”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L016",
+      "title": "核心实验：光的反射定律",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "CORE",
+      "formula": "∠r=∠i",
+      "note": "复核“反射角等于入射角，两线分居法线两侧”及例题“入射光与镜面夹30°，反射角是多少”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L017",
+      "title": "核心实验：平面镜成像",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "CORE",
+      "formula": "像距=物距",
+      "note": "复核“像物关于镜面对称”及例题“人离镜1 m，像离人多远”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L018",
+      "title": "光的折射：方向为什么改变",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“入射介质—界面—折射光线模型”及例题“从空气斜射入水，光线通常靠近哪条线”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L019",
+      "title": "透镜怎样改变光束",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "删除太阳聚光钩子，改用低亮度手电筒，消除灼伤风险。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L020",
+      "title": "核心实验：凸透镜成像规律",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "CORE",
+      "formula": "—",
+      "note": "复核“物距—焦距区间决定像的位置与性质”及例题“物距大于2f时像有何特点”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L021",
+      "title": "凸透镜应用：成像区间怎样选器件",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "正课只讲成像区间与器件；眼睛、眼镜和望远镜移入阅读卡。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L022",
+      "title": "质量：物体含有多少物质",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "CORE",
+      "formula": "—",
+      "note": "复核“天平比较物体质量”及例题“砝码50 g、游码2.4 g，物体质量”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L023",
+      "title": "密度：相同体积为什么轻重不同",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "NONE",
+      "formula": "ρ=m/V",
+      "note": "复核“质量—体积比率模型”及例题“质量178 g、体积20 cm³，密度”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L024",
+      "title": "核心实验：测固体密度",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "CORE",
+      "formula": "ρ=m/V",
+      "note": "从固液混做拆为固体密度实验，只保留排水法这一条主线。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L025",
+      "title": "核心实验：测液体密度",
+      "status": "PASS",
+      "visual": "BUILT_AND_CHECKED",
+      "experiment": "CORE",
+      "formula": "ρ=(m总-m容)/V",
+      "note": "新增独立液体密度实验，明确减容器质量和同份液体配对。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L026",
+      "title": "力：看作用效果与相互作用",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“施力物—受力物成对分析”及例题“脚踢球时谁受力”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L027",
+      "title": "力的三要素与示意图",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "NONE",
+      "formula": "—",
+      "note": "复核“用带比例或标值箭头表示力”及例题“画水平向右5 N的推力”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L028",
+      "title": "重力：方向总指向哪里",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "G=mg",
+      "note": "复核“重心处竖直向下”及例题“2 kg物体重力约多少，取g=10 N/kg”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L029",
+      "title": "弹力与弹簧测力计",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "—",
+      "note": "复核“在限度内形变量反映力大小”及例题“测力计每大格1 N分5小格，指3小格”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L030",
+      "title": "核心实验：滑动摩擦力受什么影响",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "F拉=f",
+      "note": "复核“水平匀速时拉力等于摩擦力”及例题“研究粗糙程度时什么必须相同”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L031",
+      "title": "牛顿第一定律：没有力会怎样",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“阻力逐渐减小→运动保持更久→理想无阻力”及例题“运动物体不受力将怎样”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L032",
+      "title": "惯性：物体保持原状态的性质",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "删除‘物体想保持’的拟人化科学标题。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L033",
+      "title": "同一直线上二力的合成：平衡是特殊情况",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“先定正方向；同向相加、反向相减；合力为零时检查同体等大反向共线”及例题“物体受向右6 N和向左4 N的力，合力怎样”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L034",
+      "title": "压强：同样的力为什么效果不同",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "p=F/S",
+      "note": "复核“压力与受力面积共同决定效果”及例题“600 N站在0.04 m²地面，压强”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L035",
+      "title": "核心实验：液体压强受什么影响",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "—",
+      "note": "复核“同种液体压强随深度增加；同深度看密度”及例题“研究深度影响时保持什么相同”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L036",
+      "title": "大气压：空气也在用力",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“内外压强差产生效果”及例题“吸管吸饮料是谁把液体压上来”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L037",
+      "title": "流体压强与流速",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“两侧流速差→压强差→受力”及例题“火车站安全线为什么要退后”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L038",
+      "title": "浮力：浸在流体里的向上作用",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "F浮=G-F示",
+      "note": "复核“弹簧测力计示数差测浮力”及例题“空气5 N、水中3 N，浮力”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L039",
+      "title": "核心实验：浮力大小受什么影响",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "F浮=G-F示",
+      "note": "复核“控制变量比较称重差”及例题“完全浸没后继续下沉，浮力通常怎样”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L040",
+      "title": "阿基米德原理：浮力等于排开液体的重",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "F浮=G排=ρ液gV排",
+      "note": "复核“排液质量→排液重力→浮力”及例题“排开0.2 kg水，取g=10，浮力”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L041",
+      "title": "物体浮沉：比较浮力和重力",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“F浮与G比较；漂浮时相等”及例题“漂浮物质量增大后排水怎样变”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L042",
+      "title": "功：力什么时候产生了“成果”",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "NONE",
+      "formula": "W=Fs",
+      "note": "复核“力与力方向距离的乘积”及例题“10 N水平推物前进3 m，做功”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L043",
+      "title": "功率：做功有多快",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "P=W/t",
+      "note": "复核“功与时间的比率”及例题“做600 J功用3 s，功率”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L044",
+      "title": "动能、势能与机械能转化",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“动能↔势能，考虑阻力时部分转为内能”及例题“小球从高处下滑时能量怎样变”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L045",
+      "title": "杠杆模型与平衡条件",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "F1l1=F2l2",
+      "note": "复核“力×力臂两侧平衡”及例题“阻力20 N、阻力臂0.1 m，动力臂0.5 m”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L046",
+      "title": "机械效率：有用功占多少",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "η=W有/W总",
+      "note": "复核“有用功、额外功与总功的能量账本”及例题“有用功80 J、总功100 J，效率”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L047",
+      "title": "分子热运动与内能",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "明确内能包含分子动能和分子间相互作用势能。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L048",
+      "title": "改变内能的两条路",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“能量转移与能量转化两类路径”及例题“压缩空气使其变热属于哪种”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L049",
+      "title": "比热容：相同热量为何升温不同",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "Q=cmΔT",
+      "note": "复核“质量、温差、物质共同决定吸热”及例题“2 kg水升高5℃，c=4.2×10³，吸热”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L050",
+      "title": "燃料热值：同质量燃料放热不同",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "Q=mq",
+      "note": "复核“燃料质量与完全燃烧放热的比例模型”及例题“0.1 kg燃料热值3×10^7 J/kg，完全燃烧放热”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L051",
+      "title": "能量守恒：能量去了哪里",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "NONE",
+      "formula": "E入=E有效+E其他",
+      "note": "删除与L046重复的效率目标，改为能量守恒账本。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L052",
+      "title": "闭合电路：电流怎样形成通路",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“电源—导线—用电器—开关闭环”及例题“开关闭合但灯不亮先查什么”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L053",
+      "title": "串联和并联：电流有几条路",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“从电流路径识别连接方式”及例题“家庭灯为什么并联”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L054",
+      "title": "电流表：让电流可测量",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "—",
+      "note": "复核“串联、正进负出、量程合适”及例题“0～0.6 A量程每小格0.02 A，指17格”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L055",
+      "title": "核心实验：串并联电流特点",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "I=I1=I2；I干=I1+I2",
+      "note": "复核“节点电流守恒模型”及例题“并联两支路0.2 A与0.3 A，干路”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L056",
+      "title": "电压表：测量元件两端电压",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "—",
+      "note": "核心问题、实验和模型统一为电压表测元件两端电压。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L057",
+      "title": "核心实验：串并联电压特点",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "U总=U1+U2；U=U1=U2",
+      "note": "复核“回路电压分配模型”及例题“串联两灯1.2 V、1.8 V，电源电压”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L058",
+      "title": "滑动变阻器：用有效长度调电阻",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "收窄为滑动变阻器有效长度，不再同时展开全部电阻因素。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L059",
+      "title": "核心实验：电流与电压、电阻关系",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "I=U/R",
+      "note": "一组数据实测、另一组用给定数据分析，控制在20分钟内。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L060",
+      "title": "欧姆定律建模应用",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "NONE",
+      "formula": "U=IR",
+      "note": "复核“圈定研究对象再配U、I、R”及例题“0.5 A通过12 Ω电阻，电压”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L061",
+      "title": "核心实验：伏安法测电阻",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "R=U/I",
+      "note": "复核“电流表串联、电压表并联、变阻器保护”及例题“2.4 V、0.3 A，电阻”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L062",
+      "title": "电功与电能表",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "NONE",
+      "formula": "W=UIt",
+      "note": "复核“电压、电流和时间共同决定电功”及例题“220 V、2 A电器工作10 s，电功”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L063",
+      "title": "电功率与小灯泡测量",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "P=UI",
+      "note": "学生操作不再要求超过额定电压，降低器材与注意风险。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L064",
+      "title": "焦耳定律：电流为什么发热",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "Q=I²Rt",
+      "note": "复核“控制变量比较电阻丝产热”及例题“电流变2倍，其他不变，电热变几倍”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L065",
+      "title": "家庭电路与安全用电",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“火线—用电器—零线与接地保护”及例题“多个大功率电器同插座有何风险”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L066",
+      "title": "磁场：看不见但能用作用检验",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“小磁针N极受力方向定义场方向”及例题“条形磁体外部磁感线方向”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L067",
+      "title": "核心实验：电流的磁场与通电螺线管",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "—",
+      "note": "复核“电流方向决定磁场方向”及例题“电流反向后磁极怎样”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L068",
+      "title": "磁场对电流的作用与电动机",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "复核“电能→机械能；电流或磁场反向则受力反向”及例题“电动机主要把什么能转为什么能”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L069",
+      "title": "核心实验：电磁感应与发电机",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "CORE",
+      "formula": "—",
+      "note": "复核“机械运动—磁场变化—电能”及例题“导体静止在磁场中是否有感应电流”，未发现需改写的科学错误。",
+      "failures": []
+    },
+    {
+      "lesson_id": "L070",
+      "title": "能源与现代技术：用证据选择方案",
+      "status": "PASS",
+      "visual": "REGISTERED_ASSET_PENDING",
+      "experiment": "MICRO",
+      "formula": "—",
+      "note": "删除低价值波长计算；电磁波改阅读卡，正课只做能源方案评价。",
+      "failures": []
+    }
+  ]
+}

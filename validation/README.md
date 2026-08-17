@@ -14,4 +14,12 @@ python validation/validate_course.py
 python validation/test_physics_examples.py
 ```
 
+逐课内容治理：
+
+```powershell
+python validation/audit_all_lessons.py
+```
+
+逐课结果写入`LESSON_BY_LESSON_AUDIT.md`和`lesson_audit.json`；专用视觉资产未完成时必须标记`REGISTERED_ASSET_PENDING`，不得用注册表代替完成状态。
+
 该测试复核29个典型数值关系、全部29节公式课、23节CORE实验设计卡、89项课标编号和22章教材映射。内容负荷还须结合人工审查；视觉语义必须在最终SVG/动画完成后逐图检查。

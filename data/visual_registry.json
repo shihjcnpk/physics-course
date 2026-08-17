@@ -85,7 +85,7 @@
   },
   {
     "lesson_id": "L008",
-    "visual": "噪声三环节图",
+    "visual": "声音作用三环节图",
     "required": true,
     "accuracy_checks": [
       "对象清楚",
@@ -289,7 +289,7 @@
   },
   {
     "lesson_id": "L025",
-    "visual": "宏观到微观尺度轴",
+    "visual": "液体密度测量流程图",
     "required": true,
     "accuracy_checks": [
       "对象清楚",

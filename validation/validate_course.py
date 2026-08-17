@@ -119,7 +119,7 @@ for index, lesson in enumerate(lessons):
     else:
         if "本课不用计算公式" not in text:
             errors.append(f"{lesson['lesson_id']}无公式课缺少模型边界说明")
-    for marker in ["基础·北京题型：概念辨析", "基础·北京题型：读数/计算", "典型·北京题型：读图作图", "典型·北京题型：实验探究", "提升·北京题型：解释/论证"]:
+    for marker in ["基础·概念辨析", "基础·读数/计算", "典型·读图作图", "典型·证据与实验", "提升·解释论证"]:
         if marker not in text:
             errors.append(f"{lesson['lesson_id']}练习结构缺项：{marker}")
     if index < 25 and "先圈定对象和条件，再用" in text.split("## 10分钟练习", 1)[-1].split("## 为什么错", 1)[0]:
@@ -251,7 +251,7 @@ report = {
     "errors": errors,
     "warnings": warnings,
     "result": "PASS" if not errors else "FAIL",
-    "checks": ["YAML与JSON一致", "CORE实验四变量与异常值", "公式六问的核心四项", "北京中考五类练习", "课内外练习同步", "Markdown相对链接", "20+10与逻辑链", "三册新版官方目录与二力合成", "八上漫画图解全覆盖、三格结构与四步读图链"],
+    "checks": ["YAML与JSON一致", "CORE实验四变量与异常值", "公式六问的核心四项", "五类练习与来源诚实性", "课内外练习同步", "Markdown相对链接", "20+10与逻辑链", "三册新版官方目录与二力合成", "八上漫画图解全覆盖、三格结构与四步读图链"],
 }
 (ROOT / "validation/report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
 print(json.dumps(report, ensure_ascii=False, indent=2))
